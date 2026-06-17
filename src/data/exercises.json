@@ -1,0 +1,329 @@
+{
+  "brand": {
+    "eyebrow": "Fit Nurse Secrets",
+    "title": "Exercise Decoder",
+    "intro": "Pick exercises by body part — not by confusion. Choose 1–2 movements per area, match them to your level, and let the muscle do the work."
+  },
+  "groups": [
+    {
+      "id": "glutes",
+      "name": "Glutes",
+      "tagline": "For lifted, rounder glutes",
+      "howTo": "Pick 1–2 glute exercises per workout. Build them slowly and make the glute do the work — not your low back.",
+      "exercises": [
+        {
+          "name": "Dumbbell Hip Thrust",
+          "rating": "5/5",
+          "why": "Based on the hip thrust family, one of the strongest glute activation patterns in the supplied EMG data.",
+          "levels": { "B": "Bodyweight Hip Thrust", "I": "Dumbbell Hip Thrust", "A": "Heavy Dumbbell Hip Thrust" },
+          "basedOn": "Hip Thrust",
+          "image": "hip_thrust"
+        },
+        {
+          "name": "Dumbbell Glute Bridge",
+          "rating": "5/5",
+          "why": "Based on the glute bridge, a top glute activator that lets you train the glutes with very little setup.",
+          "levels": { "B": "Bodyweight Glute Bridge", "I": "Dumbbell Glute Bridge", "A": "Single-Leg Dumbbell Glute Bridge" },
+          "basedOn": "Glute Bridge",
+          "image": "glute_bridge"
+        },
+        {
+          "name": "Dumbbell Romanian Deadlift",
+          "rating": "5/5",
+          "why": "A high-return hinge for glutes and hamstrings. Useful when you want shape without needing machines.",
+          "levels": { "B": "Light Dumbbell RDL", "I": "Dumbbell RDL", "A": "Heavy Dumbbell RDL" },
+          "basedOn": "Pull Through + Romanian Deadlift",
+          "image": "rdl"
+        },
+        {
+          "name": "Dumbbell Bulgarian Split Squat",
+          "rating": "5/5",
+          "why": "Excellent for glutes and legs at the same time. Great when you want curves and leg tone.",
+          "levels": { "B": "Bodyweight Split Squat", "I": "Dumbbell Bulgarian Split Squat", "A": "Heavy Dumbbell Bulgarian Split Squat" },
+          "basedOn": "Bulgarian Split Squat",
+          "image": "bulgarian_split"
+        },
+        {
+          "name": "Dumbbell Step-Up",
+          "rating": "4/5",
+          "why": "A practical glute and leg builder that also trains balance and single-leg control.",
+          "levels": { "B": "Bodyweight Step-Up", "I": "Dumbbell Step-Up", "A": "High Box Dumbbell Step-Up" },
+          "basedOn": "Step-Up",
+          "image": "step_up"
+        }
+      ]
+    },
+    {
+      "id": "quads",
+      "name": "Quads",
+      "tagline": "For toned legs and stronger squats",
+      "howTo": "Choose 1 squat or single-leg pattern. You do not need every quad exercise in the same workout.",
+      "exercises": [
+        {
+          "name": "Goblet Squat",
+          "rating": "5/5",
+          "why": "Based on squat variations that ranked highest for quad activation. Simple, coachable, and dumbbell friendly.",
+          "levels": { "B": "Bodyweight Squat", "I": "Goblet Squat", "A": "Heavy Goblet Squat" },
+          "basedOn": "Full / Parallel / Half Squat",
+          "image": "goblet_squat"
+        },
+        {
+          "name": "Dumbbell Front Squat",
+          "rating": "5/5",
+          "why": "A strong quad-focused squat option when you have two dumbbells and want more load than a goblet squat.",
+          "levels": { "B": "Goblet Squat", "I": "Double Dumbbell Front Squat", "A": "Heavy Double Dumbbell Front Squat" },
+          "basedOn": "Front Squat",
+          "image": "front_squat"
+        },
+        {
+          "name": "Dumbbell Bulgarian Split Squat",
+          "rating": "5/5",
+          "why": "A high-return quad and glute exercise that makes lighter dumbbells feel challenging.",
+          "levels": { "B": "Split Squat", "I": "Dumbbell Bulgarian Split Squat", "A": "Heavy Dumbbell Bulgarian Split Squat" },
+          "basedOn": "Bulgarian Split Squat",
+          "image": "bulgarian_split"
+        },
+        {
+          "name": "Dumbbell Step-Up",
+          "rating": "4/5",
+          "why": "A strong leg-toning option that is easy to scale by changing box height, load, or tempo.",
+          "levels": { "B": "Low Step-Up", "I": "Dumbbell Step-Up", "A": "High Box Dumbbell Step-Up" },
+          "basedOn": "Step-Up",
+          "image": "step_up"
+        }
+      ]
+    },
+    {
+      "id": "hamstrings",
+      "name": "Hamstrings",
+      "tagline": "For the back of the legs and glute tie-in",
+      "howTo": "Pick one hinge. Move slow. Feel the stretch. Keep the spine quiet and the hips doing the work.",
+      "exercises": [
+        {
+          "name": "Dumbbell Romanian Deadlift",
+          "rating": "5/5",
+          "why": "One of the best dumbbell choices for hamstrings, glutes, and posterior-chain shape.",
+          "levels": { "B": "Light Dumbbell RDL", "I": "Dumbbell RDL", "A": "Heavy Dumbbell RDL" },
+          "basedOn": "Romanian Deadlift",
+          "image": "rdl"
+        },
+        {
+          "name": "Dumbbell Deadlift",
+          "rating": "5/5",
+          "why": "Based on the deadlift, which ranked at the top for average hamstring activation in the supplied testing.",
+          "levels": { "B": "Light Dumbbell Deadlift", "I": "Dumbbell Deadlift", "A": "Heavy Dumbbell Deadlift" },
+          "basedOn": "Deadlift",
+          "image": "deadlift"
+        },
+        {
+          "name": "Single-Leg Dumbbell RDL",
+          "rating": "5/5",
+          "why": "A strong hamstring and glute movement with extra balance and hip-control demand.",
+          "levels": { "B": "Assisted Single-Leg RDL", "I": "Single-Leg Dumbbell RDL", "A": "Heavy Single-Leg Dumbbell RDL" },
+          "basedOn": "Single-Leg RDL",
+          "image": "single_leg_rdl"
+        }
+      ]
+    },
+    {
+      "id": "calves",
+      "name": "Calves",
+      "tagline": "For lower-leg shape",
+      "howTo": "Calves usually respond best to controlled reps, a full stretch, and progressive loading.",
+      "exercises": [
+        {
+          "name": "Dumbbell Standing Calf Raise",
+          "rating": "5/5",
+          "why": "Based on heavy calf raise data. Use a full range of motion and pause at the top.",
+          "levels": { "B": "Bodyweight Calf Raise", "I": "Dumbbell Calf Raise", "A": "Heavy Dumbbell Calf Raise" },
+          "basedOn": "Heavy Calf Raise",
+          "image": "calf_raise"
+        },
+        {
+          "name": "Single-Leg Dumbbell Calf Raise",
+          "rating": "5/5",
+          "why": "Great when dumbbells are limited because one leg makes the load feel heavier.",
+          "levels": { "B": "Single-Leg Bodyweight Calf Raise", "I": "Single-Leg Dumbbell Calf Raise", "A": "Slow Tempo Single-Leg Calf Raise" },
+          "basedOn": "Single-Leg Calf Raise",
+          "image": "single_leg_calf"
+        }
+      ]
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "tagline": "For upper-body shape and tone",
+      "howTo": "Presses build strength. Fly variations help you feel the chest. Keep shoulders down and ribs controlled.",
+      "exercises": [
+        {
+          "name": "Dumbbell Incline Press",
+          "rating": "5/5",
+          "why": "Based on the dumbbell incline press, a top upper-chest activator in the supplied chest data.",
+          "levels": { "B": "Light Dumbbell Incline Press", "I": "Dumbbell Incline Press", "A": "Heavy Dumbbell Incline Press" },
+          "basedOn": "Dumbbell Incline Press",
+          "image": "incline_press"
+        },
+        {
+          "name": "Dumbbell Bench Press",
+          "rating": "5/5",
+          "why": "Based on the dumbbell bench press, one of the strongest mid-chest activation exercises tested.",
+          "levels": { "B": "Dumbbell Floor Press", "I": "Dumbbell Bench Press", "A": "Heavy Dumbbell Bench Press" },
+          "basedOn": "Dumbbell Bench Press",
+          "image": "bench_press"
+        },
+        {
+          "name": "Dumbbell Fly",
+          "rating": "5/5",
+          "why": "A strong isolation choice from the chest data. Best done light, controlled, and pain-free.",
+          "levels": { "B": "Short-Range Fly", "I": "Dumbbell Fly", "A": "Slow Eccentric Dumbbell Fly" },
+          "basedOn": "Dumbbell Fly",
+          "image": "fly"
+        },
+        {
+          "name": "Push-Up",
+          "rating": "4/5",
+          "why": "A no-equipment chest builder that scales well for busy nurses training at home.",
+          "levels": { "B": "Incline Push-Up", "I": "Standard Push-Up", "A": "Weighted or Deficit Push-Up" },
+          "basedOn": "Push-Up / Band Push-Up",
+          "image": "push_up"
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "name": "Back",
+      "tagline": "For posture, width, and a smaller-looking waist",
+      "howTo": "Back training is huge for nurses: charting, patient care, fatigue, and rounded posture make this area matter.",
+      "exercises": [
+        {
+          "name": "Single-Arm Dumbbell Row",
+          "rating": "5/5",
+          "why": "A practical dumbbell lat builder based on the top pull-up and chin-up patterns from the back data.",
+          "levels": { "B": "Supported Dumbbell Row", "I": "Single-Arm Dumbbell Row", "A": "Heavy Single-Arm Dumbbell Row" },
+          "basedOn": "Weighted Chin-Up / Pull-Up",
+          "image": "single_arm_row"
+        },
+        {
+          "name": "Dumbbell Bent-Over Row",
+          "rating": "5/5",
+          "why": "One of the strongest dumbbell choices for mid-back and lower-trap activation.",
+          "levels": { "B": "Light Dumbbell Row", "I": "Dumbbell Bent-Over Row", "A": "Heavy Dumbbell Bent-Over Row" },
+          "basedOn": "Dumbbell Bent-Over Row",
+          "image": "bent_over_row"
+        },
+        {
+          "name": "Chest-Supported Dumbbell Row",
+          "rating": "5/5",
+          "why": "A great upper-back option when you want support for the low back while still training the posture muscles.",
+          "levels": { "B": "Incline Bench Row", "I": "Chest-Supported Dumbbell Row", "A": "Heavy Chest-Supported Row" },
+          "basedOn": "Chest-Supported Row",
+          "image": "chest_supported_row"
+        },
+        {
+          "name": "Dumbbell Romanian Deadlift",
+          "rating": "5/5",
+          "why": "Based on the rack pull, one of the highest overall back activators tested. This is the dumbbell-first version.",
+          "levels": { "B": "Light Dumbbell RDL", "I": "Dumbbell RDL", "A": "Heavy Dumbbell RDL" },
+          "basedOn": "Rack Pull",
+          "image": "rdl"
+        }
+      ]
+    },
+    {
+      "id": "shoulders",
+      "name": "Shoulders",
+      "tagline": "For upper-body shape and waist contrast",
+      "howTo": "These are coach additions for physique balance. They help create shape around the waist, hips, and upper body.",
+      "exercises": [
+        {
+          "name": "Dumbbell Lateral Raise",
+          "rating": "5/5",
+          "why": "Builds side-shoulder shape, which helps create a stronger shoulder-to-waist contrast.",
+          "levels": { "B": "Seated Lateral Raise", "I": "Standing Lateral Raise", "A": "Leaning or Slow Tempo Lateral Raise" },
+          "basedOn": "Coach Addition: Side Delts",
+          "image": "lateral_raise"
+        },
+        {
+          "name": "Rear Delt Fly",
+          "rating": "5/5",
+          "why": "Builds the rear shoulder and supports better posture after long shifts and charting.",
+          "levels": { "B": "Supported Rear Delt Fly", "I": "Bent-Over Rear Delt Fly", "A": "Heavy Controlled Rear Delt Fly" },
+          "basedOn": "Coach Addition: Rear Delts",
+          "image": "rear_delt_fly"
+        },
+        {
+          "name": "Dumbbell Trap Raise",
+          "rating": "5/5",
+          "why": "Based on the prone trap raise, which performed extremely well for mid and lower traps.",
+          "levels": { "B": "Bodyweight Y Raise", "I": "Light Dumbbell Trap Raise", "A": "Heavy Controlled Trap Raise" },
+          "basedOn": "Prone Trap Raise",
+          "image": "trap_raise"
+        }
+      ]
+    },
+    {
+      "id": "triceps",
+      "name": "Triceps",
+      "tagline": "For firmer arms",
+      "howTo": "The triceps create most of the shape in the upper arm. Pick one direct triceps exercise when arms are a focus.",
+      "exercises": [
+        {
+          "name": "Overhead Dumbbell Extension",
+          "rating": "5/5",
+          "why": "Based on overhead triceps extension patterns that target the long head of the triceps.",
+          "levels": { "B": "Light Overhead Extension", "I": "Two-Hand Overhead Extension", "A": "Heavy Overhead Extension" },
+          "basedOn": "Overhead Cable Extension",
+          "image": "overhead_extension"
+        },
+        {
+          "name": "Dumbbell Skull Crusher",
+          "rating": "5/5",
+          "why": "Based on the skull crusher, a strong direct triceps movement from the supplied data.",
+          "levels": { "B": "Light Skull Crusher", "I": "Dumbbell Skull Crusher", "A": "Heavy Controlled Skull Crusher" },
+          "basedOn": "Skull Crusher",
+          "image": "skull_crusher"
+        },
+        {
+          "name": "Dumbbell Kickback",
+          "rating": "4/5",
+          "why": "A dumbbell alternative based on rope and cable extension patterns. Best with strict form and a squeeze.",
+          "levels": { "B": "Light Kickback", "I": "Dumbbell Kickback", "A": "Slow Tempo Kickback" },
+          "basedOn": "Rope / Cable Extension",
+          "image": "kickback"
+        }
+      ]
+    },
+    {
+      "id": "biceps",
+      "name": "Biceps",
+      "tagline": "For defined arms",
+      "howTo": "Pulling movements already train biceps. Add curls when you want direct arm work.",
+      "exercises": [
+        {
+          "name": "Dumbbell Curl",
+          "rating": "5/5",
+          "why": "Based on barbell curl data and translated into the dumbbell version most nurses can use anywhere.",
+          "levels": { "B": "Alternating Dumbbell Curl", "I": "Dumbbell Curl", "A": "Heavy Dumbbell Curl" },
+          "basedOn": "Barbell Curl",
+          "image": "dumbbell_curl"
+        },
+        {
+          "name": "Incline Dumbbell Curl",
+          "rating": "5/5",
+          "why": "A strong arm exercise because it challenges the biceps in a stretched position.",
+          "levels": { "B": "Light Incline Curl", "I": "Incline Dumbbell Curl", "A": "Slow Tempo Incline Curl" },
+          "basedOn": "Incline Curl",
+          "image": "incline_curl"
+        },
+        {
+          "name": "Hammer Curl",
+          "rating": "5/5",
+          "why": "Builds arm thickness and forearm shape while staying joint-friendly for many lifters.",
+          "levels": { "B": "Light Hammer Curl", "I": "Hammer Curl", "A": "Heavy Hammer Curl" },
+          "basedOn": "Hammer Curl",
+          "image": "hammer_curl"
+        }
+      ]
+    }
+  ]
+}
