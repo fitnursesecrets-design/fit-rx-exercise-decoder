@@ -1,0 +1,243 @@
+{
+  "title": "Volume Decoder",
+  "subtitle": "How many sets + reps per muscle to build workouts",
+  "intro": "Muscle growth is not about doing random exercises until you are tired. It is about giving each muscle enough hard sets per week to grow — without doing so much that recovery crashes.",
+  "hardSet": {
+    "label": "What counts as a hard set?",
+    "text": "Train close to failure, usually leaving 1–3 reps in reserve. If you could have done 12 reps but stopped at 10, that is about 2 reps in reserve. Challenged, but not destroyed."
+  },
+  "zones": [
+    {
+      "name": "Maintenance Volume",
+      "desc": "Keeps your current muscle. Good for busy weeks, stressful shifts, or when fat loss is the main goal."
+    },
+    {
+      "name": "Minimum Effective Volume",
+      "desc": "The lowest amount that can still produce progress. Where most beginners should start."
+    },
+    {
+      "name": "Maximum Adaptive Volume",
+      "desc": "The sweet spot where most growth happens. Where intermediate clients spend most of their time."
+    },
+    {
+      "name": "Maximum Recoverable Volume",
+      "desc": "The highest amount you can recover from. Most lifestyle clients do not need to live here."
+    }
+  ],
+  "volumeTable": [
+    { "muscle": "Glutes", "start": "6–10", "growth": "10–18", "limit": "20–24", "reps": "8–20" },
+    { "muscle": "Quads", "start": "6–10", "growth": "10–18", "limit": "18–22", "reps": "6–15" },
+    { "muscle": "Hamstrings", "start": "4–8", "growth": "8–14", "limit": "14–18", "reps": "6–15" },
+    { "muscle": "Chest", "start": "6–10", "growth": "10–18", "limit": "18–22", "reps": "6–20" },
+    { "muscle": "Back", "start": "8–12", "growth": "12–22", "limit": "22–26", "reps": "8–20" },
+    { "muscle": "Side Delts", "start": "6–10", "growth": "10–20", "limit": "20–26", "reps": "12–30" },
+    { "muscle": "Rear Delts", "start": "6–10", "growth": "10–20", "limit": "20–26", "reps": "12–30" },
+    { "muscle": "Biceps", "start": "4–8", "growth": "8–16", "limit": "16–20", "reps": "8–20" },
+    { "muscle": "Triceps", "start": "4–8", "growth": "8–16", "limit": "16–20", "reps": "8–20" },
+    { "muscle": "Calves", "start": "6–10", "growth": "10–20", "limit": "20–26", "reps": "10–30" },
+    { "muscle": "Abs / Core", "start": "4–8", "growth": "8–16", "limit": "16–20", "reps": "8–25" }
+  ],
+  "tableNote": "Start in the beginner column for 2–4 weeks, then increase only the muscles you care about most.",
+  "designSteps": [
+    {
+      "step": "1",
+      "title": "Pick the priority muscle",
+      "text": "Do not try to grow everything equally. Pick 1–3 focus areas — e.g. glutes + waist contrast, back + shoulders, or full-body recomposition."
+    },
+    {
+      "step": "2",
+      "title": "Assign weekly sets",
+      "text": "Example for glutes + legs + upper-body shape: Glutes 10 · Quads 8 · Hamstrings 6 · Chest 6 · Back 9 · Shoulders 8 · Arms 4–6. That is plenty."
+    },
+    {
+      "step": "3",
+      "title": "Split sets across the week",
+      "text": "Do not dump all sets into one workout. Glutes 10/week → 5 Monday + 5 Thursday. Most muscles grow well with 2–3 exposures per week."
+    }
+  ],
+  "workoutSets": [
+    { "role": "Big muscle focus", "sets": "4–8 hard sets" },
+    { "role": "Secondary muscle", "sets": "2–4 hard sets" },
+    { "role": "Small muscle / isolation", "sets": "2–5 hard sets" }
+  ],
+  "workoutExample": {
+    "title": "Glute-focused workout example",
+    "items": [
+      "Dumbbell Hip Thrust — 3 sets",
+      "Dumbbell RDL — 3 sets",
+      "Dumbbell Bulgarian Split Squat — 2 sets"
+    ],
+    "note": "8 strong glute-focused sets. Pairs with the Exercise Decoder: pick one anchor, one hinge, one optional movement."
+  },
+  "repRanges": [
+    {
+      "type": "Heavy compounds",
+      "desc": "Squats, presses, rows, RDLs, deadlifts",
+      "ranges": ["6–10 reps", "8–12 reps", "10–15 reps"],
+      "examples": ["Goblet Squat 8–12", "Bench Press 8–12", "RDL 8–15", "Single-Arm Row 8–15"]
+    },
+    {
+      "type": "Isolation & shape",
+      "desc": "Lateral raises, curls, triceps, calves, rear delts",
+      "ranges": ["10–20 reps", "12–25 reps", "15–30 reps"],
+      "examples": ["Lateral Raise 15–25", "Rear Delt Fly 15–25", "Curl 10–20", "Calf Raise 10–30"]
+    }
+  ],
+  "muscleGuides": [
+    {
+      "muscle": "Glutes",
+      "weekly": "10–18 sets",
+      "reps": "8–20",
+      "exercises": ["Hip thrust", "Glute bridge", "RDL", "Bulgarian split squat", "Step-up"],
+      "setup": ["Workout 1: Hip thrust 3–4 sets", "Workout 2: RDL 3–4 sets", "Workout 3: Split squat or step-up 3–4 sets"]
+    },
+    {
+      "muscle": "Quads",
+      "weekly": "8–16 sets",
+      "reps": "6–15",
+      "exercises": ["Goblet squat", "Front squat", "Bulgarian split squat", "Step-up"],
+      "setup": ["Workout 1: Goblet squat 3–4 sets", "Workout 2: Bulgarian split squat 3–4 sets", "Workout 3: Step-up or front squat 2–4 sets"]
+    },
+    {
+      "muscle": "Hamstrings",
+      "weekly": "6–14 sets",
+      "reps": "6–15",
+      "exercises": ["Dumbbell RDL", "Dumbbell deadlift", "Single-leg RDL"],
+      "setup": ["Workout 1: RDL 3–4 sets", "Workout 2: Single-leg RDL 2–4 sets", "Optional: Deadlift 2–3 sets"],
+      "note": "Usually need less volume than glutes or back — hinges create a lot of fatigue."
+    },
+    {
+      "muscle": "Chest",
+      "weekly": "8–16 sets",
+      "reps": "6–20",
+      "exercises": ["Incline press", "Bench press", "Fly", "Push-up"],
+      "setup": ["Workout 1: Incline press 3–4 sets", "Workout 2: Bench press 3–4 sets", "Workout 3: Fly or push-up 2–4 sets"]
+    },
+    {
+      "muscle": "Back",
+      "weekly": "10–22 sets",
+      "reps": "8–20",
+      "exercises": ["Single-arm row", "Bent-over row", "Chest-supported row", "RDL variation"],
+      "setup": ["Workout 1: Single-arm row 3–4 sets", "Workout 2: Chest-supported row 3–4 sets", "Workout 3: Bent-over row 3–4 sets"],
+      "note": "Can usually handle more volume than chest or hamstrings."
+    },
+    {
+      "muscle": "Shoulders",
+      "weekly": "10–20 sets",
+      "reps": "12–30",
+      "exercises": ["Lateral raise (side delts)", "Rear delt fly", "Trap raise"],
+      "setup": ["Workout 1: Lateral raise 3–4 sets", "Workout 2: Rear delt fly 3–4 sets", "Workout 3: Trap raise 2–4 sets"],
+      "note": "Huge for physique — helps create a smaller-looking waist."
+    },
+    {
+      "muscle": "Biceps",
+      "weekly": "6–14 direct sets",
+      "reps": "8–20",
+      "exercises": ["Dumbbell curl", "Incline curl", "Hammer curl"],
+      "setup": ["Workout 1: Curl 2–3 sets", "Workout 2: Hammer curl 2–3 sets", "Workout 3: Incline curl 2–3 sets"],
+      "note": "Rows already train biceps indirectly — you do not need tons of curl volume at first."
+    },
+    {
+      "muscle": "Triceps",
+      "weekly": "6–14 direct sets",
+      "reps": "8–20",
+      "exercises": ["Overhead extension", "Skull crusher", "Kickback"],
+      "setup": ["Workout 1: Overhead extension 2–3 sets", "Workout 2: Skull crusher 2–3 sets", "Workout 3: Kickback 2–3 sets"],
+      "note": "Pressing already trains triceps indirectly."
+    },
+    {
+      "muscle": "Calves",
+      "weekly": "8–20 sets",
+      "reps": "10–30",
+      "exercises": ["Standing calf raise", "Single-leg calf raise"],
+      "setup": ["Workout 1: Standing raise 3–4 sets", "Workout 2: Single-leg raise 3–4 sets", "Workout 3: Standing raise 3–4 sets"],
+      "note": "Often need higher reps, full stretch, and pauses at the top."
+    }
+  ],
+  "progression": {
+    "title": "The progression rule",
+    "example": {
+      "exercise": "Dumbbell Hip Thrust",
+      "prescription": "3 sets × 8–12 reps",
+      "weeks": [
+        "Week 1: 10, 9, 8",
+        "Week 2: 11, 10, 9",
+        "Week 3: 12, 11, 10",
+        "Week 4: 12, 12, 11",
+        "Week 5: 12, 12, 12 → add weight, repeat"
+      ]
+    }
+  },
+  "addVolume": {
+    "title": "When to add more sets",
+    "items": [
+      "You are recovering well",
+      "Soreness is manageable",
+      "Performance is stable or improving",
+      "You still feel the target muscle working",
+      "You are not dragging through the rest of the week"
+    ],
+    "rule": "Add 1–2 sets per muscle per week — not 10."
+  },
+  "reduceVolume": {
+    "title": "When to reduce sets",
+    "items": [
+      "Performance drops two workouts in a row",
+      "Joints ache",
+      "Sleep is poor",
+      "Soreness lasts more than 3–4 days",
+      "Motivation crashes",
+      "You feel beat up instead of better"
+    ],
+    "rule": "For nurses especially, shift stress and poor sleep lower how much volume you can handle."
+  },
+  "threeDayPlan": [
+    {
+      "day": "Day 1",
+      "focus": "Glutes + Upper Push/Pull",
+      "exercises": [
+        { "name": "Dumbbell Hip Thrust", "sets": "3 × 8–15" },
+        { "name": "Dumbbell Incline Press", "sets": "3 × 8–12" },
+        { "name": "Single-Arm Dumbbell Row", "sets": "3 × 8–15" },
+        { "name": "Dumbbell Lateral Raise", "sets": "3 × 15–25" },
+        { "name": "Overhead Dumbbell Extension", "sets": "2 × 10–20" }
+      ]
+    },
+    {
+      "day": "Day 2",
+      "focus": "Legs + Back + Calves",
+      "exercises": [
+        { "name": "Goblet Squat", "sets": "3 × 8–15" },
+        { "name": "Dumbbell RDL", "sets": "3 × 8–12" },
+        { "name": "Chest-Supported Dumbbell Row", "sets": "3 × 10–15" },
+        { "name": "Hammer Curl", "sets": "2 × 10–20" },
+        { "name": "Standing Calf Raise", "sets": "3 × 10–30" }
+      ]
+    },
+    {
+      "day": "Day 3",
+      "focus": "Glutes/Legs + Upper Shape",
+      "exercises": [
+        { "name": "Dumbbell Bulgarian Split Squat", "sets": "3 × 8–12 / leg" },
+        { "name": "Dumbbell Bench Press", "sets": "3 × 8–12" },
+        { "name": "Dumbbell Bent-Over Row", "sets": "3 × 8–15" },
+        { "name": "Rear Delt Fly", "sets": "3 × 15–25" },
+        { "name": "Dumbbell Curl", "sets": "2 × 10–20" },
+        { "name": "Single-Leg Calf Raise", "sets": "3 × 10–25" }
+      ]
+    }
+  ],
+  "weeklyTotals": [
+    { "muscle": "Glutes", "sets": "6–9" },
+    { "muscle": "Quads", "sets": "6" },
+    { "muscle": "Hamstrings", "sets": "3–6" },
+    { "muscle": "Chest", "sets": "6" },
+    { "muscle": "Back", "sets": "9" },
+    { "muscle": "Shoulders / Rear Delts", "sets": "6" },
+    { "muscle": "Biceps", "sets": "4 direct + row overlap" },
+    { "muscle": "Triceps", "sets": "2 direct + press overlap" },
+    { "muscle": "Calves", "sets": "6" }
+  ],
+  "weeklyTotalsNote": "A strong starter plan. For a glute-priority client, add 2–4 more glute sets per week.",
+  "closingRule": "You do not need more exercises. You need enough quality sets for the muscles you care about, repeated long enough to improve."
+}
