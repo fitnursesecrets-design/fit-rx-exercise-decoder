@@ -2,7 +2,7 @@
   "brand": {
     "eyebrow": "Fit Nurse Secrets",
     "title": "Exercise Decoder",
-    "intro": "Pick exercises by body part — not by confusion. Choose 1–2 movements per area, match them to your level, and let the muscle do the work.",
+    "intro": "Pick exercises by body part — not by confusion. Choose 1–2 movements per area, match them to your level, and let the muscle do the work. Dumbbell and bodyweight options included.",
     "video": {
       "loomId": "e00bf200c64541128133c6184850ce33",
       "label": "Start here",
@@ -18,44 +18,144 @@
       "howTo": "Pick 1–2 glute exercises per workout. Build them slowly and make the glute do the work — not your low back.",
       "exercises": [
         {
+          "name": "Bodyweight Step-Up",
+          "rating": "4/5",
+          "why": "Builds glutes and legs while training balance. Scale by box height, tempo, or adding a pause at the top.",
+          "levels": {
+            "B": "Low Step-Up",
+            "I": "Standard Step-Up",
+            "A": "High Box Step-Up"
+          },
+          "basedOn": "Step-Up",
+          "image": "step_up",
+          "equipment": "bodyweight",
+          "movementType": "unilateral"
+        },
+        {
+          "name": "Bodyweight Bulgarian Split Squat",
+          "rating": "5/5",
+          "why": "Single-leg glute and quad builder that needs no weights. Use a chair or bench for the rear foot.",
+          "levels": {
+            "B": "Supported Split Squat",
+            "I": "Bulgarian Split Squat",
+            "A": "Deficit Split Squat"
+          },
+          "basedOn": "Bulgarian Split Squat",
+          "image": "bulgarian_split",
+          "equipment": "bodyweight",
+          "movementType": "unilateral"
+        },
+        {
+          "name": "Bodyweight Romanian Deadlift",
+          "rating": "5/5",
+          "why": "A hinge pattern for glutes and hamstrings using only your bodyweight. Move slow and feel the stretch.",
+          "levels": {
+            "B": "Partial Range RDL",
+            "I": "Bodyweight RDL",
+            "A": "Tempo Bodyweight RDL"
+          },
+          "basedOn": "Romanian Deadlift",
+          "image": "rdl",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
+          "name": "Bodyweight Glute Bridge",
+          "rating": "5/5",
+          "why": "A top glute activator you can do anywhere. Great for warming up or finishing a glute block with high reps.",
+          "levels": {
+            "B": "Standard Glute Bridge",
+            "I": "Pause Glute Bridge",
+            "A": "Single-Leg Glute Bridge"
+          },
+          "basedOn": "Glute Bridge",
+          "image": "glute_bridge",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
+          "name": "Bodyweight Hip Thrust",
+          "rating": "5/5",
+          "why": "The same strong glute activation pattern as weighted hip thrusts — no equipment needed. Pause at the top and drive through your heels.",
+          "levels": {
+            "B": "Floor Hip Thrust",
+            "I": "Elevated Hip Thrust",
+            "A": "Single-Leg Hip Thrust"
+          },
+          "basedOn": "Hip Thrust",
+          "image": "hip_thrust",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Dumbbell Hip Thrust",
           "rating": "5/5",
           "why": "Based on the hip thrust family, one of the strongest glute activation patterns in the supplied EMG data.",
-          "levels": { "B": "Bodyweight Hip Thrust", "I": "Dumbbell Hip Thrust", "A": "Heavy Dumbbell Hip Thrust" },
+          "levels": {
+            "B": "Bodyweight Hip Thrust",
+            "I": "Dumbbell Hip Thrust",
+            "A": "Heavy Dumbbell Hip Thrust"
+          },
           "basedOn": "Hip Thrust",
-          "image": "hip_thrust"
+          "image": "hip_thrust",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Glute Bridge",
           "rating": "5/5",
           "why": "Based on the glute bridge, a top glute activator that lets you train the glutes with very little setup.",
-          "levels": { "B": "Bodyweight Glute Bridge", "I": "Dumbbell Glute Bridge", "A": "Single-Leg Dumbbell Glute Bridge" },
+          "levels": {
+            "B": "Bodyweight Glute Bridge",
+            "I": "Dumbbell Glute Bridge",
+            "A": "Single-Leg Dumbbell Glute Bridge"
+          },
           "basedOn": "Glute Bridge",
-          "image": "glute_bridge"
+          "image": "glute_bridge",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Romanian Deadlift",
           "rating": "5/5",
           "why": "A high-return hinge for glutes and hamstrings. Useful when you want shape without needing machines.",
-          "levels": { "B": "Light Dumbbell RDL", "I": "Dumbbell RDL", "A": "Heavy Dumbbell RDL" },
+          "levels": {
+            "B": "Light Dumbbell RDL",
+            "I": "Dumbbell RDL",
+            "A": "Heavy Dumbbell RDL"
+          },
           "basedOn": "Pull Through + Romanian Deadlift",
-          "image": "rdl"
+          "image": "rdl",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Bulgarian Split Squat",
           "rating": "5/5",
           "why": "Excellent for glutes and legs at the same time. Great when you want curves and leg tone.",
-          "levels": { "B": "Bodyweight Split Squat", "I": "Dumbbell Bulgarian Split Squat", "A": "Heavy Dumbbell Bulgarian Split Squat" },
+          "levels": {
+            "B": "Bodyweight Split Squat",
+            "I": "Dumbbell Bulgarian Split Squat",
+            "A": "Heavy Dumbbell Bulgarian Split Squat"
+          },
           "basedOn": "Bulgarian Split Squat",
-          "image": "bulgarian_split"
+          "image": "bulgarian_split",
+          "equipment": "dumbbell",
+          "movementType": "unilateral"
         },
         {
           "name": "Dumbbell Step-Up",
           "rating": "4/5",
           "why": "A practical glute and leg builder that also trains balance and single-leg control.",
-          "levels": { "B": "Bodyweight Step-Up", "I": "Dumbbell Step-Up", "A": "High Box Dumbbell Step-Up" },
+          "levels": {
+            "B": "Bodyweight Step-Up",
+            "I": "Dumbbell Step-Up",
+            "A": "High Box Dumbbell Step-Up"
+          },
           "basedOn": "Step-Up",
-          "image": "step_up"
+          "image": "step_up",
+          "equipment": "dumbbell",
+          "movementType": "unilateral"
         }
       ]
     },
@@ -66,36 +166,102 @@
       "howTo": "Choose 1 squat or single-leg pattern. You do not need every quad exercise in the same workout.",
       "exercises": [
         {
+          "name": "Bodyweight Step-Up",
+          "rating": "4/5",
+          "why": "Quad-focused when you take a longer step and drive through the front heel.",
+          "levels": {
+            "B": "Low Step-Up",
+            "I": "Standard Step-Up",
+            "A": "High Box Step-Up"
+          },
+          "basedOn": "Step-Up",
+          "image": "step_up",
+          "equipment": "bodyweight",
+          "movementType": "unilateral"
+        },
+        {
+          "name": "Bodyweight Reverse Lunge",
+          "rating": "5/5",
+          "why": "A knee-friendly single-leg quad builder that also trains glutes and balance.",
+          "levels": {
+            "B": "Short-Step Lunge",
+            "I": "Reverse Lunge",
+            "A": "Deficit Reverse Lunge"
+          },
+          "basedOn": "Lunge Variations",
+          "image": "bulgarian_split",
+          "equipment": "bodyweight",
+          "movementType": "unilateral"
+        },
+        {
+          "name": "Bodyweight Squat",
+          "rating": "5/5",
+          "why": "The foundation quad builder. Keep heels down, ribs stacked, and sit between your hips.",
+          "levels": {
+            "B": "Box Squat",
+            "I": "Bodyweight Squat",
+            "A": "Tempo or Pause Squat"
+          },
+          "basedOn": "Full / Parallel Squat",
+          "image": "goblet_squat",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Goblet Squat",
           "rating": "5/5",
           "why": "Based on squat variations that ranked highest for quad activation. Simple, coachable, and dumbbell friendly.",
-          "levels": { "B": "Bodyweight Squat", "I": "Goblet Squat", "A": "Heavy Goblet Squat" },
+          "levels": {
+            "B": "Bodyweight Squat",
+            "I": "Goblet Squat",
+            "A": "Heavy Goblet Squat"
+          },
           "basedOn": "Full / Parallel / Half Squat",
-          "image": "goblet_squat"
+          "image": "goblet_squat",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Front Squat",
           "rating": "5/5",
           "why": "A strong quad-focused squat option when you have two dumbbells and want more load than a goblet squat.",
-          "levels": { "B": "Goblet Squat", "I": "Double Dumbbell Front Squat", "A": "Heavy Double Dumbbell Front Squat" },
+          "levels": {
+            "B": "Goblet Squat",
+            "I": "Double Dumbbell Front Squat",
+            "A": "Heavy Double Dumbbell Front Squat"
+          },
           "basedOn": "Front Squat",
-          "image": "front_squat"
+          "image": "front_squat",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Bulgarian Split Squat",
           "rating": "5/5",
           "why": "A high-return quad and glute exercise that makes lighter dumbbells feel challenging.",
-          "levels": { "B": "Split Squat", "I": "Dumbbell Bulgarian Split Squat", "A": "Heavy Dumbbell Bulgarian Split Squat" },
+          "levels": {
+            "B": "Split Squat",
+            "I": "Dumbbell Bulgarian Split Squat",
+            "A": "Heavy Dumbbell Bulgarian Split Squat"
+          },
           "basedOn": "Bulgarian Split Squat",
-          "image": "bulgarian_split"
+          "image": "bulgarian_split",
+          "equipment": "dumbbell",
+          "movementType": "unilateral"
         },
         {
           "name": "Dumbbell Step-Up",
           "rating": "4/5",
           "why": "A strong leg-toning option that is easy to scale by changing box height, load, or tempo.",
-          "levels": { "B": "Low Step-Up", "I": "Dumbbell Step-Up", "A": "High Box Dumbbell Step-Up" },
+          "levels": {
+            "B": "Low Step-Up",
+            "I": "Dumbbell Step-Up",
+            "A": "High Box Dumbbell Step-Up"
+          },
           "basedOn": "Step-Up",
-          "image": "step_up"
+          "image": "step_up",
+          "equipment": "dumbbell",
+          "movementType": "unilateral"
         }
       ]
     },
@@ -106,28 +272,88 @@
       "howTo": "Pick one hinge. Move slow. Feel the stretch. Keep the spine quiet and the hips doing the work.",
       "exercises": [
         {
+          "name": "Bodyweight Glute Bridge",
+          "rating": "4/5",
+          "why": "Also trains hamstrings when you push through heels and keep tension on the way down.",
+          "levels": {
+            "B": "Standard Glute Bridge",
+            "I": "Pause Glute Bridge",
+            "A": "Single-Leg Glute Bridge"
+          },
+          "basedOn": "Glute Bridge",
+          "image": "glute_bridge",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
+          "name": "Single-Leg Bodyweight RDL",
+          "rating": "5/5",
+          "why": "Challenges hamstrings, glutes, and balance in one move. Use a wall or chair for balance if needed.",
+          "levels": {
+            "B": "Assisted Single-Leg RDL",
+            "I": "Single-Leg RDL",
+            "A": "Slow Tempo Single-Leg RDL"
+          },
+          "basedOn": "Single-Leg RDL",
+          "image": "single_leg_rdl",
+          "equipment": "bodyweight",
+          "movementType": "unilateral"
+        },
+        {
+          "name": "Bodyweight Romanian Deadlift",
+          "rating": "5/5",
+          "why": "The best no-equipment hinge for hamstrings and glutes. Keep a soft knee and long spine.",
+          "levels": {
+            "B": "Partial Range RDL",
+            "I": "Bodyweight RDL",
+            "A": "Tempo Bodyweight RDL"
+          },
+          "basedOn": "Romanian Deadlift",
+          "image": "rdl",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Dumbbell Romanian Deadlift",
           "rating": "5/5",
           "why": "One of the best dumbbell choices for hamstrings, glutes, and posterior-chain shape.",
-          "levels": { "B": "Light Dumbbell RDL", "I": "Dumbbell RDL", "A": "Heavy Dumbbell RDL" },
+          "levels": {
+            "B": "Light Dumbbell RDL",
+            "I": "Dumbbell RDL",
+            "A": "Heavy Dumbbell RDL"
+          },
           "basedOn": "Romanian Deadlift",
-          "image": "rdl"
+          "image": "rdl",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Deadlift",
           "rating": "5/5",
           "why": "Based on the deadlift, which ranked at the top for average hamstring activation in the supplied testing.",
-          "levels": { "B": "Light Dumbbell Deadlift", "I": "Dumbbell Deadlift", "A": "Heavy Dumbbell Deadlift" },
+          "levels": {
+            "B": "Light Dumbbell Deadlift",
+            "I": "Dumbbell Deadlift",
+            "A": "Heavy Dumbbell Deadlift"
+          },
           "basedOn": "Deadlift",
-          "image": "deadlift"
+          "image": "deadlift",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Single-Leg Dumbbell RDL",
           "rating": "5/5",
           "why": "A strong hamstring and glute movement with extra balance and hip-control demand.",
-          "levels": { "B": "Assisted Single-Leg RDL", "I": "Single-Leg Dumbbell RDL", "A": "Heavy Single-Leg Dumbbell RDL" },
+          "levels": {
+            "B": "Assisted Single-Leg RDL",
+            "I": "Single-Leg Dumbbell RDL",
+            "A": "Heavy Single-Leg Dumbbell RDL"
+          },
           "basedOn": "Single-Leg RDL",
-          "image": "single_leg_rdl"
+          "image": "single_leg_rdl",
+          "equipment": "dumbbell",
+          "movementType": "unilateral"
         }
       ]
     },
@@ -138,20 +364,60 @@
       "howTo": "Calves usually respond best to controlled reps, a full stretch, and progressive loading.",
       "exercises": [
         {
+          "name": "Single-Leg Bodyweight Calf Raise",
+          "rating": "5/5",
+          "why": "Doubles the load per leg without needing weights. Great on a step for extra range.",
+          "levels": {
+            "B": "Assisted Single-Leg Raise",
+            "I": "Single-Leg Calf Raise",
+            "A": "Slow Tempo Single-Leg Raise"
+          },
+          "basedOn": "Single-Leg Calf Raise",
+          "image": "single_leg_calf",
+          "equipment": "bodyweight",
+          "movementType": "unilateral"
+        },
+        {
+          "name": "Bodyweight Calf Raise",
+          "rating": "5/5",
+          "why": "Full-range calf work with no equipment. Pause at the top and control the stretch at the bottom.",
+          "levels": {
+            "B": "Two-Leg Calf Raise",
+            "I": "Bodyweight Calf Raise",
+            "A": "Slow Tempo Calf Raise"
+          },
+          "basedOn": "Standing Calf Raise",
+          "image": "calf_raise",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Dumbbell Standing Calf Raise",
           "rating": "5/5",
           "why": "Based on heavy calf raise data. Use a full range of motion and pause at the top.",
-          "levels": { "B": "Bodyweight Calf Raise", "I": "Dumbbell Calf Raise", "A": "Heavy Dumbbell Calf Raise" },
+          "levels": {
+            "B": "Bodyweight Calf Raise",
+            "I": "Dumbbell Calf Raise",
+            "A": "Heavy Dumbbell Calf Raise"
+          },
           "basedOn": "Heavy Calf Raise",
-          "image": "calf_raise"
+          "image": "calf_raise",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Single-Leg Dumbbell Calf Raise",
           "rating": "5/5",
           "why": "Great when dumbbells are limited because one leg makes the load feel heavier.",
-          "levels": { "B": "Single-Leg Bodyweight Calf Raise", "I": "Single-Leg Dumbbell Calf Raise", "A": "Slow Tempo Single-Leg Calf Raise" },
+          "levels": {
+            "B": "Single-Leg Bodyweight Calf Raise",
+            "I": "Single-Leg Dumbbell Calf Raise",
+            "A": "Slow Tempo Single-Leg Calf Raise"
+          },
           "basedOn": "Single-Leg Calf Raise",
-          "image": "single_leg_calf"
+          "image": "single_leg_calf",
+          "equipment": "dumbbell",
+          "movementType": "unilateral"
         }
       ]
     },
@@ -162,36 +428,88 @@
       "howTo": "Presses build strength. Fly variations help you feel the chest. Keep shoulders down and ribs controlled.",
       "exercises": [
         {
+          "name": "Bodyweight Floor Fly",
+          "rating": "4/5",
+          "why": "An isolation-style chest squeeze using only your arms on the floor. Best done slow and controlled.",
+          "levels": {
+            "B": "Short-Range Floor Fly",
+            "I": "Floor Fly",
+            "A": "Slow Eccentric Floor Fly"
+          },
+          "basedOn": "Dumbbell Fly",
+          "image": "fly",
+          "equipment": "bodyweight",
+          "movementType": "isolation"
+        },
+        {
+          "name": "Incline Push-Up",
+          "rating": "5/5",
+          "why": "Upper-chest friendly and easier to control. Use a bench, counter, or wall to scale difficulty.",
+          "levels": {
+            "B": "Wall Push-Up",
+            "I": "Incline Push-Up",
+            "A": "Low Incline Push-Up"
+          },
+          "basedOn": "Incline Press",
+          "image": "incline_press",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Dumbbell Incline Press",
           "rating": "5/5",
           "why": "Based on the dumbbell incline press, a top upper-chest activator in the supplied chest data.",
-          "levels": { "B": "Light Dumbbell Incline Press", "I": "Dumbbell Incline Press", "A": "Heavy Dumbbell Incline Press" },
+          "levels": {
+            "B": "Light Dumbbell Incline Press",
+            "I": "Dumbbell Incline Press",
+            "A": "Heavy Dumbbell Incline Press"
+          },
           "basedOn": "Dumbbell Incline Press",
-          "image": "incline_press"
+          "image": "incline_press",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Bench Press",
           "rating": "5/5",
           "why": "Based on the dumbbell bench press, one of the strongest mid-chest activation exercises tested.",
-          "levels": { "B": "Dumbbell Floor Press", "I": "Dumbbell Bench Press", "A": "Heavy Dumbbell Bench Press" },
+          "levels": {
+            "B": "Dumbbell Floor Press",
+            "I": "Dumbbell Bench Press",
+            "A": "Heavy Dumbbell Bench Press"
+          },
           "basedOn": "Dumbbell Bench Press",
-          "image": "bench_press"
+          "image": "bench_press",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Fly",
           "rating": "5/5",
           "why": "A strong isolation choice from the chest data. Best done light, controlled, and pain-free.",
-          "levels": { "B": "Short-Range Fly", "I": "Dumbbell Fly", "A": "Slow Eccentric Dumbbell Fly" },
+          "levels": {
+            "B": "Short-Range Fly",
+            "I": "Dumbbell Fly",
+            "A": "Slow Eccentric Dumbbell Fly"
+          },
           "basedOn": "Dumbbell Fly",
-          "image": "fly"
+          "image": "fly",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         },
         {
           "name": "Push-Up",
           "rating": "4/5",
           "why": "A no-equipment chest builder that scales well for busy nurses training at home.",
-          "levels": { "B": "Incline Push-Up", "I": "Standard Push-Up", "A": "Weighted or Deficit Push-Up" },
+          "levels": {
+            "B": "Incline Push-Up",
+            "I": "Standard Push-Up",
+            "A": "Weighted or Deficit Push-Up"
+          },
           "basedOn": "Push-Up / Band Push-Up",
-          "image": "push_up"
+          "image": "push_up",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
         }
       ]
     },
@@ -202,36 +520,102 @@
       "howTo": "Back training is huge for nurses: charting, patient care, fatigue, and rounded posture make this area matter.",
       "exercises": [
         {
+          "name": "Single-Arm Bodyweight Row",
+          "rating": "5/5",
+          "why": "Single-arm row using a door anchor, table, or suspension trainer. Great for lat focus.",
+          "levels": {
+            "B": "Assisted Single-Arm Row",
+            "I": "Single-Arm Row",
+            "A": "Feet-Elevated Single-Arm Row"
+          },
+          "basedOn": "Single-Arm Row",
+          "image": "single_arm_row",
+          "equipment": "bodyweight",
+          "movementType": "unilateral"
+        },
+        {
+          "name": "Bodyweight Superman Row",
+          "rating": "4/5",
+          "why": "Prone pulling pattern for upper back and posture — no equipment beyond the floor.",
+          "levels": {
+            "B": "Prone Y Raise",
+            "I": "Superman Row",
+            "A": "Pause Superman Row"
+          },
+          "basedOn": "Chest-Supported Row",
+          "image": "chest_supported_row",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
+          "name": "Inverted Row",
+          "rating": "5/5",
+          "why": "A bodyweight row using a sturdy table, bar, or TRX. Builds lats and mid-back for posture.",
+          "levels": {
+            "B": "High Incline Row",
+            "I": "Inverted Row",
+            "A": "Feet-Elevated Row"
+          },
+          "basedOn": "Bent-Over Row",
+          "image": "bent_over_row",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Single-Arm Dumbbell Row",
           "rating": "5/5",
           "why": "A practical dumbbell lat builder based on the top pull-up and chin-up patterns from the back data.",
-          "levels": { "B": "Supported Dumbbell Row", "I": "Single-Arm Dumbbell Row", "A": "Heavy Single-Arm Dumbbell Row" },
+          "levels": {
+            "B": "Supported Dumbbell Row",
+            "I": "Single-Arm Dumbbell Row",
+            "A": "Heavy Single-Arm Dumbbell Row"
+          },
           "basedOn": "Weighted Chin-Up / Pull-Up",
-          "image": "single_arm_row"
+          "image": "single_arm_row",
+          "equipment": "dumbbell",
+          "movementType": "unilateral"
         },
         {
           "name": "Dumbbell Bent-Over Row",
           "rating": "5/5",
           "why": "One of the strongest dumbbell choices for mid-back and lower-trap activation.",
-          "levels": { "B": "Light Dumbbell Row", "I": "Dumbbell Bent-Over Row", "A": "Heavy Dumbbell Bent-Over Row" },
+          "levels": {
+            "B": "Light Dumbbell Row",
+            "I": "Dumbbell Bent-Over Row",
+            "A": "Heavy Dumbbell Bent-Over Row"
+          },
           "basedOn": "Dumbbell Bent-Over Row",
-          "image": "bent_over_row"
+          "image": "bent_over_row",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Chest-Supported Dumbbell Row",
           "rating": "5/5",
           "why": "A great upper-back option when you want support for the low back while still training the posture muscles.",
-          "levels": { "B": "Incline Bench Row", "I": "Chest-Supported Dumbbell Row", "A": "Heavy Chest-Supported Row" },
+          "levels": {
+            "B": "Incline Bench Row",
+            "I": "Chest-Supported Dumbbell Row",
+            "A": "Heavy Chest-Supported Row"
+          },
           "basedOn": "Chest-Supported Row",
-          "image": "chest_supported_row"
+          "image": "chest_supported_row",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         },
         {
           "name": "Dumbbell Romanian Deadlift",
           "rating": "5/5",
           "why": "Based on the rack pull, one of the highest overall back activators tested. This is the dumbbell-first version.",
-          "levels": { "B": "Light Dumbbell RDL", "I": "Dumbbell RDL", "A": "Heavy Dumbbell RDL" },
+          "levels": {
+            "B": "Light Dumbbell RDL",
+            "I": "Dumbbell RDL",
+            "A": "Heavy Dumbbell RDL"
+          },
           "basedOn": "Rack Pull",
-          "image": "rdl"
+          "image": "rdl",
+          "equipment": "dumbbell",
+          "movementType": "bilateral"
         }
       ]
     },
@@ -242,28 +626,102 @@
       "howTo": "These are coach additions for physique balance. They help create shape around the waist, hips, and upper body.",
       "exercises": [
         {
+          "name": "Bodyweight Lateral Raise",
+          "rating": "4/5",
+          "why": "Side delt shape work using arm abduction against gravity. Strict form beats heavy load here.",
+          "levels": {
+            "B": "Seated Lateral Raise",
+            "I": "Standing Lateral Raise",
+            "A": "Leaning Lateral Raise"
+          },
+          "basedOn": "Lateral Raise",
+          "image": "lateral_raise",
+          "equipment": "bodyweight",
+          "movementType": "isolation"
+        },
+        {
+          "name": "Bodyweight Rear Delt Fly",
+          "rating": "5/5",
+          "why": "Rear shoulder and posture work using only arm rotation. Great after long shifts.",
+          "levels": {
+            "B": "Standing Rear Delt Squeeze",
+            "I": "Bent-Over Rear Delt Fly",
+            "A": "Slow Tempo Rear Delt Fly"
+          },
+          "basedOn": "Rear Delt Fly",
+          "image": "rear_delt_fly",
+          "equipment": "bodyweight",
+          "movementType": "isolation"
+        },
+        {
+          "name": "Bodyweight Y Raise",
+          "rating": "5/5",
+          "why": "Builds traps and rear shoulders lying face-down. No weights — squeeze at the top.",
+          "levels": {
+            "B": "Prone Y Raise",
+            "I": "Bodyweight Y Raise",
+            "A": "Pause Y Raise"
+          },
+          "basedOn": "Prone Trap Raise",
+          "image": "trap_raise",
+          "equipment": "bodyweight",
+          "movementType": "isolation"
+        },
+        {
+          "name": "Pike Push-Up",
+          "rating": "5/5",
+          "why": "A bodyweight overhead press pattern for shoulders. Hips high, head between hands, control the descent.",
+          "levels": {
+            "B": "Box Pike Push-Up",
+            "I": "Pike Push-Up",
+            "A": "Feet-Elevated Pike Push-Up"
+          },
+          "basedOn": "Overhead Press",
+          "image": "push_up",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Dumbbell Lateral Raise",
           "rating": "5/5",
           "why": "Builds side-shoulder shape, which helps create a stronger shoulder-to-waist contrast.",
-          "levels": { "B": "Seated Lateral Raise", "I": "Standing Lateral Raise", "A": "Leaning or Slow Tempo Lateral Raise" },
+          "levels": {
+            "B": "Seated Lateral Raise",
+            "I": "Standing Lateral Raise",
+            "A": "Leaning or Slow Tempo Lateral Raise"
+          },
           "basedOn": "Coach Addition: Side Delts",
-          "image": "lateral_raise"
+          "image": "lateral_raise",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         },
         {
           "name": "Rear Delt Fly",
           "rating": "5/5",
           "why": "Builds the rear shoulder and supports better posture after long shifts and charting.",
-          "levels": { "B": "Supported Rear Delt Fly", "I": "Bent-Over Rear Delt Fly", "A": "Heavy Controlled Rear Delt Fly" },
+          "levels": {
+            "B": "Supported Rear Delt Fly",
+            "I": "Bent-Over Rear Delt Fly",
+            "A": "Heavy Controlled Rear Delt Fly"
+          },
           "basedOn": "Coach Addition: Rear Delts",
-          "image": "rear_delt_fly"
+          "image": "rear_delt_fly",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         },
         {
           "name": "Dumbbell Trap Raise",
           "rating": "5/5",
           "why": "Based on the prone trap raise, which performed extremely well for mid and lower traps.",
-          "levels": { "B": "Bodyweight Y Raise", "I": "Light Dumbbell Trap Raise", "A": "Heavy Controlled Trap Raise" },
+          "levels": {
+            "B": "Bodyweight Y Raise",
+            "I": "Light Dumbbell Trap Raise",
+            "A": "Heavy Controlled Trap Raise"
+          },
           "basedOn": "Prone Trap Raise",
-          "image": "trap_raise"
+          "image": "trap_raise",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         }
       ]
     },
@@ -274,28 +732,88 @@
       "howTo": "The triceps create most of the shape in the upper arm. Pick one direct triceps exercise when arms are a focus.",
       "exercises": [
         {
+          "name": "Bodyweight Triceps Extension",
+          "rating": "4/5",
+          "why": "Overhead triceps extension lying on the floor. Targets the long head with no equipment.",
+          "levels": {
+            "B": "Short-Range Extension",
+            "I": "Floor Triceps Extension",
+            "A": "Slow Eccentric Extension"
+          },
+          "basedOn": "Overhead Extension",
+          "image": "overhead_extension",
+          "equipment": "bodyweight",
+          "movementType": "isolation"
+        },
+        {
+          "name": "Diamond Push-Up",
+          "rating": "5/5",
+          "why": "Hands close together to emphasize triceps. Scale with incline or knee variations.",
+          "levels": {
+            "B": "Incline Diamond Push-Up",
+            "I": "Diamond Push-Up",
+            "A": "Deficit Diamond Push-Up"
+          },
+          "basedOn": "Close-Grip Press",
+          "image": "push_up",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
+          "name": "Bench Dip",
+          "rating": "5/5",
+          "why": "Direct triceps work using a bench or chair. Keep shoulders down and elbows tracking back.",
+          "levels": {
+            "B": "Bent-Knee Bench Dip",
+            "I": "Bench Dip",
+            "A": "Feet-Elevated Bench Dip"
+          },
+          "basedOn": "Dip",
+          "image": "skull_crusher",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Overhead Dumbbell Extension",
           "rating": "5/5",
           "why": "Based on overhead triceps extension patterns that target the long head of the triceps.",
-          "levels": { "B": "Light Overhead Extension", "I": "Two-Hand Overhead Extension", "A": "Heavy Overhead Extension" },
+          "levels": {
+            "B": "Light Overhead Extension",
+            "I": "Two-Hand Overhead Extension",
+            "A": "Heavy Overhead Extension"
+          },
           "basedOn": "Overhead Cable Extension",
-          "image": "overhead_extension"
+          "image": "overhead_extension",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         },
         {
           "name": "Dumbbell Skull Crusher",
           "rating": "5/5",
           "why": "Based on the skull crusher, a strong direct triceps movement from the supplied data.",
-          "levels": { "B": "Light Skull Crusher", "I": "Dumbbell Skull Crusher", "A": "Heavy Controlled Skull Crusher" },
+          "levels": {
+            "B": "Light Skull Crusher",
+            "I": "Dumbbell Skull Crusher",
+            "A": "Heavy Controlled Skull Crusher"
+          },
           "basedOn": "Skull Crusher",
-          "image": "skull_crusher"
+          "image": "skull_crusher",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         },
         {
           "name": "Dumbbell Kickback",
           "rating": "4/5",
           "why": "A dumbbell alternative based on rope and cable extension patterns. Best with strict form and a squeeze.",
-          "levels": { "B": "Light Kickback", "I": "Dumbbell Kickback", "A": "Slow Tempo Kickback" },
+          "levels": {
+            "B": "Light Kickback",
+            "I": "Dumbbell Kickback",
+            "A": "Slow Tempo Kickback"
+          },
           "basedOn": "Rope / Cable Extension",
-          "image": "kickback"
+          "image": "kickback",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         }
       ]
     },
@@ -306,28 +824,88 @@
       "howTo": "Pulling movements already train biceps. Add curls when you want direct arm work.",
       "exercises": [
         {
+          "name": "Bodyweight Concentration Curl",
+          "rating": "4/5",
+          "why": "Leg-resisted curl using your own body as resistance. Squeeze hard at the top.",
+          "levels": {
+            "B": "Assisted Concentration Curl",
+            "I": "Concentration Curl",
+            "A": "Slow Tempo Concentration Curl"
+          },
+          "basedOn": "Concentration Curl",
+          "image": "incline_curl",
+          "equipment": "bodyweight",
+          "movementType": "isolation"
+        },
+        {
+          "name": "Doorway Towel Curl",
+          "rating": "4/5",
+          "why": "Anchor a towel in a door for resistance curls. A practical home biceps option.",
+          "levels": {
+            "B": "Light Towel Curl",
+            "I": "Towel Curl",
+            "A": "Slow Tempo Towel Curl"
+          },
+          "basedOn": "Barbell Curl",
+          "image": "dumbbell_curl",
+          "equipment": "bodyweight",
+          "movementType": "isolation"
+        },
+        {
+          "name": "Underhand Inverted Row",
+          "rating": "5/5",
+          "why": "Chin-up grip on a bodyweight row builds biceps along with back. Use a table or bar.",
+          "levels": {
+            "B": "High Incline Underhand Row",
+            "I": "Underhand Inverted Row",
+            "A": "Feet-Elevated Underhand Row"
+          },
+          "basedOn": "Chin-Up",
+          "image": "bent_over_row",
+          "equipment": "bodyweight",
+          "movementType": "bilateral"
+        },
+        {
           "name": "Dumbbell Curl",
           "rating": "5/5",
           "why": "Based on barbell curl data and translated into the dumbbell version most nurses can use anywhere.",
-          "levels": { "B": "Alternating Dumbbell Curl", "I": "Dumbbell Curl", "A": "Heavy Dumbbell Curl" },
+          "levels": {
+            "B": "Alternating Dumbbell Curl",
+            "I": "Dumbbell Curl",
+            "A": "Heavy Dumbbell Curl"
+          },
           "basedOn": "Barbell Curl",
-          "image": "dumbbell_curl"
+          "image": "dumbbell_curl",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         },
         {
           "name": "Incline Dumbbell Curl",
           "rating": "5/5",
           "why": "A strong arm exercise because it challenges the biceps in a stretched position.",
-          "levels": { "B": "Light Incline Curl", "I": "Incline Dumbbell Curl", "A": "Slow Tempo Incline Curl" },
+          "levels": {
+            "B": "Light Incline Curl",
+            "I": "Incline Dumbbell Curl",
+            "A": "Slow Tempo Incline Curl"
+          },
           "basedOn": "Incline Curl",
-          "image": "incline_curl"
+          "image": "incline_curl",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         },
         {
           "name": "Hammer Curl",
           "rating": "5/5",
           "why": "Builds arm thickness and forearm shape while staying joint-friendly for many lifters.",
-          "levels": { "B": "Light Hammer Curl", "I": "Hammer Curl", "A": "Heavy Hammer Curl" },
+          "levels": {
+            "B": "Light Hammer Curl",
+            "I": "Hammer Curl",
+            "A": "Heavy Hammer Curl"
+          },
           "basedOn": "Hammer Curl",
-          "image": "hammer_curl"
+          "image": "hammer_curl",
+          "equipment": "dumbbell",
+          "movementType": "isolation"
         }
       ]
     }

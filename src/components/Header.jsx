@@ -1,6 +1,7 @@
 export default function Header({ brand, activeTab, onTabChange }) {
   const tabs = [
     { id: "exercises", label: "Exercises" },
+    { id: "setup", label: "Workout Setup" },
     { id: "volume", label: "Volume Guide" },
   ];
 
@@ -24,7 +25,7 @@ export default function Header({ brand, activeTab, onTabChange }) {
             </div>
           </div>
           <span className="eyebrow hidden text-[10px] font-medium text-faint sm:block">
-            Dumbbell-first clarity
+            Dumbbell + bodyweight clarity
           </span>
         </div>
 
