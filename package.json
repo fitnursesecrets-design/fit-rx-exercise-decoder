@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "export:start-here": "node scripts/export-start-here-png.mjs"
   },
   "dependencies": {
     "react": "^19.2.7",
