@@ -1,0 +1,177 @@
+{
+  "title": "Mini Course",
+  "subtitle": "Start Here — pick your path and take action in 7 days",
+  "coach": {
+    "name": "Christian",
+    "title": "Certified Personal Trainer & Nutrition Coach",
+    "bio": "Over the past several years I've helped hundreds of nurses lose weight, build strength, and create a healthier lifestyle — without spending hours in the gym or following restrictive diets."
+  },
+  "slides": [
+    {
+      "id": "welcome",
+      "label": "Welcome",
+      "headline": "Welcome to the Fit Nurse Secrets Mini Course",
+      "body": "I'm excited you're here. Before you watch anything else, I want you to know one thing:",
+      "highlight": "Everything inside this course is designed to help you stop guessing and start making progress as quickly as possible.",
+      "action": {
+        "label": "Your first move",
+        "text": "Stay on this walkthrough until the end — then pick ONE section to implement."
+      },
+      "presenterNote": "Hey, and welcome to the Fit Nurse Secrets Mini Course. I'm excited you're here. Before you watch anything else, I want you to know one thing: everything inside this course is designed to help you stop guessing and start making progress as quickly as possible."
+    },
+    {
+      "id": "goal",
+      "label": "Your goal",
+      "headline": "Your goal is not to finish this course",
+      "body": "Your goal is to pick one section, implement it, and see results within the next seven days.",
+      "highlight": "Don't try to learn everything at once. One section. One week. Real progress.",
+      "action": {
+        "label": "Action",
+        "text": "Decide right now: you will implement ONE section before moving on."
+      },
+      "presenterNote": "Your goal is not to finish this course. Your goal is to pick one section, implement it, and see results within the next seven days."
+    },
+    {
+      "id": "credibility",
+      "label": "Who I am",
+      "headline": "Built by someone who gets nurses",
+      "body": "My name is Christian. I'm a certified personal trainer and nutrition coach.",
+      "highlight": "I've helped hundreds of nurses lose weight, build strength, and create a healthier lifestyle — without spending hours in the gym or following restrictive diets.",
+      "action": {
+        "label": "Action",
+        "text": "Trust that this was built for your schedule — not a generic fitness plan."
+      },
+      "presenterNote": "If we haven't met before, my name is Christian. I'm a certified personal trainer and nutrition coach, and over the past several years I've helped hundreds of nurses lose weight, build strength, and create a healthier lifestyle without spending hours in the gym or following restrictive diets."
+    },
+    {
+      "id": "why",
+      "label": "Why this exists",
+      "headline": "Nurses don't struggle because they lack motivation",
+      "body": "They struggle because they're trying to follow fitness advice that wasn't designed for 12-hour shifts, rotating schedules, and the stress that comes with healthcare.",
+      "highlight": "That's exactly why this course exists — to give you a system that works with your nursing career, not against it.",
+      "action": {
+        "label": "Action",
+        "text": "Stop blaming yourself. Start following advice built for your reality."
+      },
+      "presenterNote": "I created this course because I kept seeing the same problem. Nurses don't struggle because they lack motivation. They struggle because they're trying to follow fitness advice that wasn't designed for 12-hour shifts, rotating schedules, and the stress that comes with healthcare. That's exactly why this course exists."
+    },
+    {
+      "id": "decision",
+      "label": "Choose your path",
+      "headline": "Where should you start?",
+      "body": "Use this decision flow. Be honest about what's actually holding you back right now.",
+      "decisionFlow": true,
+      "action": {
+        "label": "Action",
+        "text": "Point to the branch that matches your biggest challenge today."
+      },
+      "presenterNote": "So let me show you where to start. Whichever section you choose, don't skip ahead trying to learn everything at once. Master one area first."
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "headline": "Start with Nutrition",
+      "body": "If your biggest challenge is knowing what to eat — or you're not seeing consistent weight loss progress — this is where you begin.",
+      "bullets": [
+        "Constantly grabbing food at work",
+        "Struggling with cravings",
+        "Overwhelmed trying to hit calories and protein",
+        "Weight loss has stalled or feels inconsistent"
+      ],
+      "highlight": "Nutrition is the foundation. Until this is dialed in, training won't give you the results you want.",
+      "action": {
+        "label": "Action",
+        "text": "Open the Nutrition section and implement ONE change this week."
+      },
+      "presenterNote": "Start with Nutrition if your biggest challenge is knowing what to eat. If you're constantly grabbing food at work, struggling with cravings, or feel overwhelmed trying to hit your calories and protein — or if you're not seeing consistent weight loss progress — this is where you should begin."
+    },
+    {
+      "id": "training",
+      "label": "Training 0",
+      "headline": "Start with Training 0",
+      "body": "Once nutrition is addressed, move here — or start here if food is already handled and you need a workout plan you trust.",
+      "bullets": [
+        "No workout plan you trust",
+        "Spending time in the gym but not seeing results",
+        "Want the most efficient workouts possible",
+        "Ready to add training after nutrition is solid"
+      ],
+      "highlight": "If weight loss is still inconsistent, go back to Nutrition first. Training builds on that foundation.",
+      "action": {
+        "label": "Action",
+        "text": "Open Training 0 and schedule your first workout this week."
+      },
+      "presenterNote": "Start with Exercise — Training 0 — if you don't have a workout plan you trust. If you're spending time in the gym but not seeing results, or you simply want the most efficient workouts possible, start here — but only after nutrition is addressed if weight loss is your main goal."
+    },
+    {
+      "id": "accountability",
+      "label": "Accountability",
+      "headline": "Start with Accountability",
+      "body": "If you know what to do but struggle to stay consistent — or you're worried about how to actually execute — start here.",
+      "bullets": [
+        "Restarting every Monday",
+        "Losing motivation after a busy week",
+        "Know the plan but can't follow through",
+        "Concerned about how to execute day to day"
+      ],
+      "highlight": "Accountability turns knowledge into habits that actually last.",
+      "action": {
+        "label": "Action",
+        "text": "Open Accountability and set up your first consistency habit today."
+      },
+      "presenterNote": "Start with Accountability if you know what to do but struggle to stay consistent. If you find yourself restarting every Monday, losing motivation after a busy week, or you're concerned about how to execute — this section will help you build habits that actually last."
+    },
+    {
+      "id": "one-rule",
+      "label": "One rule",
+      "headline": "Master one area first",
+      "body": "Whichever section you choose, don't skip ahead trying to learn everything at once.",
+      "highlight": "The goal of this course isn't to give you more information. It's to help you build a healthy lifestyle that works with your nursing career — not against it.",
+      "action": {
+        "label": "Action",
+        "text": "Commit to ONE section for the next 7 days. Then come back for the rest."
+      },
+      "presenterNote": "Whichever section you choose, don't skip ahead trying to learn everything at once. Master one area first. Take action. Then come back and work through the rest. The goal of this course isn't to give you more information. It's to help you build a healthy lifestyle that works with your nursing career — not against it."
+    },
+    {
+      "id": "support",
+      "label": "Get support",
+      "headline": "Need help executing?",
+      "body": "We offer free video and phone calls to help you take small actions and answer any issues that come up.",
+      "highlight": "You don't have to figure this out alone. Book a call if you want support getting started.",
+      "action": {
+        "label": "Action",
+        "text": "Book a free video or phone call if you need help taking your first step."
+      },
+      "supportLink": {
+        "label": "Book a free support call",
+        "url": "#"
+      },
+      "presenterNote": "We do free video and phone calls to help you take small actions and answer any issues that may come up if you need that support as well. So pick the section that's most relevant to you, dive in, and I'll see you inside."
+    }
+  ],
+  "paths": [
+    {
+      "id": "nutrition",
+      "order": 1,
+      "name": "Nutrition",
+      "tagline": "Start here if weight loss isn't consistent",
+      "color": "green"
+    },
+    {
+      "id": "training",
+      "order": 2,
+      "name": "Training 0",
+      "tagline": "Next — once nutrition is handled",
+      "color": "gold"
+    },
+    {
+      "id": "accountability",
+      "order": 3,
+      "name": "Accountability",
+      "tagline": "Start here if execution is the blocker",
+      "color": "orange"
+    }
+  ],
+  "closingRule": "Pick one section. Implement it. See results in 7 days. Then come back for the rest."
+}

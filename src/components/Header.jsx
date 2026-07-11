@@ -1,5 +1,6 @@
 export default function Header({ brand, activeTab, onTabChange }) {
   const tabs = [
+    { id: "start", label: "Start Here" },
     { id: "exercises", label: "Exercises" },
     { id: "setup", label: "Workout Setup" },
     { id: "volume", label: "Volume Guide" },
