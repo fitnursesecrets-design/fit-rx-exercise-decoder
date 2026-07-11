@@ -112,21 +112,43 @@ function buildExercisePool(groups, equipment) {
   return pool;
 }
 
-export function generateWorkoutPlan({ daysPerWeek, groups, equipment = "all" }) {
+function getSetsPerSession(muscleId, options) {
+  const { setsPerMuscleSession, weeklySetsPerMuscle, muscleFrequency } = options;
+
+  if (setsPerMuscleSession != null) return setsPerMuscleSession;
+
+  if (weeklySetsPerMuscle != null && muscleFrequency) {
+    const freq = muscleFrequency[muscleId] ?? 1;
+    return Math.max(2, Math.round(weeklySetsPerMuscle / freq));
+  }
+
+  return SETS_PER_MUSCLE;
+}
+
+export function generateWorkoutPlan({
+  daysPerWeek,
+  groups,
+  equipment = "all",
+  setsPerMuscleSession = null,
+  weeklySetsPerMuscle = null,
+  muscleFrequency = null,
+}) {
   const template = SPLIT_TEMPLATES[daysPerWeek];
   if (!template) return null;
 
   const pool = buildExercisePool(groups, equipment);
+  const setOptions = { setsPerMuscleSession, weeklySetsPerMuscle, muscleFrequency };
 
   const workouts = template.map((dayTemplate) => {
     const muscleBlocks = dayTemplate.muscles.map((muscleId) => {
       const available = pool[muscleId] ?? [];
-      const exercises = distributeSets(available, SETS_PER_MUSCLE);
+      const targetSets = getSetsPerSession(muscleId, setOptions);
+      const exercises = distributeSets(available, targetSets);
       return {
         muscleId,
         muscle: MUSCLE_LABELS[muscleId] ?? muscleId,
         reps: REP_RANGES[muscleId] ?? "8–15",
-        targetSets: SETS_PER_MUSCLE,
+        targetSets,
         exercises,
       };
     });
@@ -145,10 +167,11 @@ export function generateWorkoutPlan({ daysPerWeek, groups, equipment = "all" }) 
   return {
     daysPerWeek,
     equipment,
-    setsPerMuscle: SETS_PER_MUSCLE,
+    setsPerMuscle: setsPerMuscleSession ?? SETS_PER_MUSCLE,
+    weeklySetsPerMuscle,
     movementOrder: MOVEMENT_ORDER,
     workouts,
   };
 }
 
-export { MOVEMENT_ORDER, SETS_PER_MUSCLE, SPLIT_TEMPLATES, MUSCLE_LABELS };
+export { MOVEMENT_ORDER, SETS_PER_MUSCLE, SPLIT_TEMPLATES, MUSCLE_LABELS, REP_RANGES };
