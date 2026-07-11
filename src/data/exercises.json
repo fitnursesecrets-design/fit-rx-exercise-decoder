@@ -69,7 +69,7 @@
             "A": "Tempo Reverse Lunge"
           },
           "basedOn": "Lunge",
-          "image": "bulgarian_split",
+          "image": "reverse_lunge",
           "equipment": "bodyweight",
           "movementType": "unilateral"
         },
@@ -83,7 +83,7 @@
             "A": "Pause Donkey Kick"
           },
           "basedOn": "Hip Extension",
-          "image": "glute_bridge",
+          "image": "donkey_kick",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
@@ -175,7 +175,7 @@
             "A": "Tempo Squat"
           },
           "basedOn": "Squat",
-          "image": "goblet_squat",
+          "image": "bodyweight_squat",
           "equipment": "bodyweight",
           "movementType": "bilateral"
         },
@@ -189,7 +189,7 @@
             "A": "Walking Reverse Lunge"
           },
           "basedOn": "Lunge",
-          "image": "bulgarian_split",
+          "image": "reverse_lunge",
           "equipment": "bodyweight",
           "movementType": "unilateral"
         },
@@ -203,7 +203,7 @@
             "A": "Tempo Walking Lunge"
           },
           "basedOn": "Lunge",
-          "image": "step_up",
+          "image": "walking_lunge",
           "equipment": "bodyweight",
           "movementType": "unilateral"
         },
@@ -309,7 +309,7 @@
             "A": "Tempo Good Morning"
           },
           "basedOn": "Good Morning",
-          "image": "deadlift",
+          "image": "good_morning",
           "equipment": "bodyweight",
           "movementType": "bilateral"
         },
@@ -465,7 +465,7 @@
             "A": "Slow Tempo Wide Push-Up"
           },
           "basedOn": "Push-Up",
-          "image": "fly",
+          "image": "wide_push_up",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
@@ -529,7 +529,7 @@
             "A": "Pause Superman"
           },
           "basedOn": "Back Extension",
-          "image": "chest_supported_row",
+          "image": "superman",
           "equipment": "bodyweight",
           "movementType": "bilateral"
         },
@@ -543,7 +543,7 @@
             "A": "Pause Back Widow"
           },
           "basedOn": "Row",
-          "image": "bent_over_row",
+          "image": "back_widow",
           "equipment": "bodyweight",
           "movementType": "bilateral"
         },
@@ -557,7 +557,7 @@
             "A": "Slow Tempo Bird Dog"
           },
           "basedOn": "Core Stability",
-          "image": "single_arm_row",
+          "image": "bird_dog",
           "equipment": "bodyweight",
           "movementType": "unilateral"
         },
@@ -635,7 +635,7 @@
             "A": "Elevated-Feet Pike Push-Up"
           },
           "basedOn": "Overhead Press",
-          "image": "push_up",
+          "image": "pike_push_up",
           "equipment": "bodyweight",
           "movementType": "bilateral"
         },
@@ -663,7 +663,7 @@
             "A": "Pause T Raise"
           },
           "basedOn": "Rear Delt Fly",
-          "image": "rear_delt_fly",
+          "image": "prone_t_raise",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
@@ -677,7 +677,7 @@
             "A": "Slow Tempo Shoulder Tap"
           },
           "basedOn": "Shoulder Stability",
-          "image": "lateral_raise",
+          "image": "plank_shoulder_tap",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
@@ -741,7 +741,7 @@
             "A": "Decline Diamond Push-Up"
           },
           "basedOn": "Close-Grip Press",
-          "image": "push_up",
+          "image": "diamond_push_up",
           "equipment": "bodyweight",
           "movementType": "bilateral"
         },
@@ -755,7 +755,7 @@
             "A": "Decline Close-Grip Push-Up"
           },
           "basedOn": "Close-Grip Press",
-          "image": "bench_press",
+          "image": "close_grip_push_up",
           "equipment": "bodyweight",
           "movementType": "bilateral"
         },
@@ -769,7 +769,7 @@
             "A": "Slow Tempo Skullcrusher"
           },
           "basedOn": "Skull Crusher",
-          "image": "skull_crusher",
+          "image": "floor_skullcrusher",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
@@ -833,7 +833,7 @@
             "A": "Slow Tempo Resisted Curl"
           },
           "basedOn": "Biceps Curl",
-          "image": "dumbbell_curl",
+          "image": "self_resisted_curl",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
@@ -847,7 +847,7 @@
             "A": "Slow Tempo Hammer Curl"
           },
           "basedOn": "Hammer Curl",
-          "image": "hammer_curl",
+          "image": "self_resisted_hammer_curl",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
@@ -861,7 +861,7 @@
             "A": "60-Second Hold"
           },
           "basedOn": "Isometric Curl",
-          "image": "incline_curl",
+          "image": "isometric_biceps_hold",
           "equipment": "bodyweight",
           "movementType": "isolation"
         },
