@@ -1,10 +1,22 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import GroupNav from "./GroupNav.jsx";
 import ExerciseCard from "./ExerciseCard.jsx";
 
+const EQUIPMENT_FILTERS = [
+  { id: "all", label: "All" },
+  { id: "bodyweight", label: "Bodyweight" },
+  { id: "dumbbell", label: "Dumbbell" },
+];
+
 export default function ExerciseGuide({ brand, groups }) {
   const [activeId, setActiveId] = useState(groups[0].id);
+  const [equipmentFilter, setEquipmentFilter] = useState("all");
   const active = groups.find((g) => g.id === activeId) ?? groups[0];
+
+  const filteredExercises = useMemo(() => {
+    if (equipmentFilter === "all") return active.exercises;
+    return active.exercises.filter((ex) => ex.equipment === equipmentFilter);
+  }, [active.exercises, equipmentFilter]);
 
   return (
     <>
@@ -35,8 +47,29 @@ export default function ExerciseGuide({ brand, groups }) {
             <p className="mt-1 text-sm text-muted">{active.tagline}</p>
           </div>
           <span className="text-xs text-faint">
-            {active.exercises.length} exercises
+            {filteredExercises.length} exercises
           </span>
+        </div>
+
+        <div className="mt-4 flex flex-wrap gap-2">
+          {EQUIPMENT_FILTERS.map((filter) => {
+            const isActive = equipmentFilter === filter.id;
+            return (
+              <button
+                key={filter.id}
+                type="button"
+                onClick={() => setEquipmentFilter(filter.id)}
+                className={[
+                  "rounded-full border px-3.5 py-1.5 text-xs font-medium transition-colors",
+                  isActive
+                    ? "border-green/40 bg-green/15 text-green-soft"
+                    : "border-line bg-panel text-muted hover:border-line-strong hover:text-white",
+                ].join(" ")}
+              >
+                {filter.label}
+              </button>
+            );
+          })}
         </div>
 
         <div className="mt-5 rounded-xl border border-green/30 bg-green/10 px-5 py-4">
@@ -47,8 +80,8 @@ export default function ExerciseGuide({ brand, groups }) {
         </div>
 
         <div className="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {active.exercises.map((ex, i) => (
-            <ExerciseCard key={`${active.id}-${ex.image}-${i}`} exercise={ex} />
+          {filteredExercises.map((ex, i) => (
+            <ExerciseCard key={`${active.id}-${ex.image}-${ex.name}-${i}`} exercise={ex} />
           ))}
         </div>
       </section>

@@ -5,6 +5,7 @@ import Header from "./components/Header.jsx";
 import IntroVideo from "./components/IntroVideo.jsx";
 import ExerciseGuide from "./components/ExerciseGuide.jsx";
 import VolumeGuide from "./components/VolumeGuide.jsx";
+import WorkoutSetup from "./components/WorkoutSetup.jsx";
 
 export default function App() {
   const { brand, groups } = exerciseData;
@@ -18,6 +19,8 @@ export default function App() {
         <IntroVideo video={brand.video} />
         {activeTab === "exercises" ? (
           <ExerciseGuide brand={brand} groups={groups} />
+        ) : activeTab === "setup" ? (
+          <WorkoutSetup groups={groups} />
         ) : (
           <VolumeGuide data={volumeData} />
         )}
@@ -26,7 +29,7 @@ export default function App() {
       <footer className="border-t border-line">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-5 py-6 text-xs text-faint sm:flex-row sm:px-8">
           <span>Fit Nurse Secrets · Exercise Decoder</span>
-          <span>Dumbbell-first clarity for busy nurses</span>
+          <span>Dumbbell + bodyweight clarity for busy nurses</span>
         </div>
       </footer>
     </div>

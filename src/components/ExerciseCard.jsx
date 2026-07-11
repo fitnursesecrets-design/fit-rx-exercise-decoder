@@ -26,8 +26,26 @@ function LevelRow({ tier, label }) {
   );
 }
 
+function EquipmentBadge({ equipment }) {
+  const styles = {
+    bodyweight: "border-green/40 bg-green/15 text-green-soft",
+    dumbbell: "border-gold/40 bg-gold/15 text-gold-soft",
+  };
+  const labels = {
+    bodyweight: "Bodyweight",
+    dumbbell: "Dumbbell",
+  };
+  return (
+    <span
+      className={`rounded-full border px-2 py-0.5 text-[10px] font-semibold capitalize ${styles[equipment] ?? "border-line text-faint"}`}
+    >
+      {labels[equipment] ?? equipment}
+    </span>
+  );
+}
+
 export default function ExerciseCard({ exercise }) {
-  const { name, rating, why, levels, basedOn, image } = exercise;
+  const { name, rating, why, levels, basedOn, image, equipment, movementType } = exercise;
   return (
     <article className="card-hover flex flex-col overflow-hidden rounded-2xl border border-line bg-panel">
       <div className="relative aspect-[4/3] w-full bg-white">
@@ -44,7 +62,10 @@ export default function ExerciseCard({ exercise }) {
           <h3 className="text-[17px] font-semibold leading-tight tracking-tight text-white">
             {name}
           </h3>
-          <RatingBadge rating={rating} />
+          <div className="flex shrink-0 flex-col items-end gap-1.5">
+            <RatingBadge rating={rating} />
+            {equipment && <EquipmentBadge equipment={equipment} />}
+          </div>
         </div>
 
         <div>
@@ -67,6 +88,12 @@ export default function ExerciseCard({ exercise }) {
 
         <p className="mt-auto border-t border-line pt-3 text-[11px] text-faint">
           Based on: <span className="text-muted">{basedOn}</span>
+          {movementType && (
+            <>
+              {" "}
+              · <span className="capitalize text-muted">{movementType}</span>
+            </>
+          )}
         </p>
       </div>
     </article>
