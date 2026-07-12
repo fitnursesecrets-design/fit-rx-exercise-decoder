@@ -1,0 +1,151 @@
+{
+  "title": "Pain-Proof Warm-Up",
+  "subtitle": "Protect your knees, shoulders, and lower back before every workout",
+  "intro": "Run this 8–12 minute full-body warm-up before lifting. Move slow, stay pain-free, and stop short of fatigue. The goal is to lubricate joints and wake up stabilizers — not to tire yourself out.",
+  "duration": "8–12 minutes",
+  "howTo": "Do each move in order, 1 round unless noted. Breathe through your nose. If something pinches, reduce the range and try again next session.",
+  "sections": [
+    {
+      "id": "hips-knees",
+      "name": "Hips & Knees",
+      "tagline": "Wake up glutes, open hips, and protect your knees",
+      "howTo": "Nurses spend hours on their feet — these moves restore hip control before squats, lunges, and hinges.",
+      "exercises": [
+        {
+          "name": "Hip Circles",
+          "prescription": "8 each direction / leg",
+          "why": "Lubricates the hip joint and preps your body for single-leg work without knee cave-in.",
+          "cue": "Hold a wall lightly, make slow controlled circles — no rushing.",
+          "protects": ["Hips", "Knees"],
+          "image": "hip_circles"
+        },
+        {
+          "name": "Fire Hydrant",
+          "prescription": "10 each side",
+          "why": "Activates glute medius — the muscle that keeps your knee tracking over your toes.",
+          "cue": "Keep your spine quiet. Only the knee lifts, not your whole pelvis.",
+          "protects": ["Knees", "Hips"],
+          "image": "fire_hydrant"
+        },
+        {
+          "name": "Clamshell",
+          "prescription": "12 each side",
+          "why": "Builds hip external rotation control — critical for knee health during squats and lunges.",
+          "cue": "Feet stay stacked. Open the top knee without rolling your hips back.",
+          "protects": ["Knees", "Hips"],
+          "image": "clamshell"
+        },
+        {
+          "name": "Quadruped Rock Back",
+          "prescription": "10 slow reps",
+          "why": "Gently loads knees and ankles through a pain-free range — great before squat patterns.",
+          "cue": "Rock your hips back toward your heels. Stop before any knee pinch.",
+          "protects": ["Knees", "Ankles"],
+          "image": "quadruped_rock_back"
+        }
+      ]
+    },
+    {
+      "id": "shoulders",
+      "name": "Shoulders",
+      "tagline": "Open the chest and restore shoulder blade control",
+      "howTo": "Charting and patient care round the shoulders forward. These moves undo that before pressing and rowing.",
+      "exercises": [
+        {
+          "name": "Angel Drag",
+          "prescription": "10 slow reps",
+          "why": "Wall-based shoulder blade slides that open the chest and train upward rotation — a nurse favorite.",
+          "cue": "Low back stays flat to the wall. Drag your arms up and down like making a snow angel.",
+          "protects": ["Shoulders", "Upper back"],
+          "image": "angel_drag"
+        },
+        {
+          "name": "Thoracic Rotation",
+          "prescription": "8 each side",
+          "why": "Restores mid-back rotation so your shoulders do not compensate during presses and rows.",
+          "cue": "Hand behind head, elbow opens to the ceiling. Hips stay still.",
+          "protects": ["Shoulders", "Mid-back"],
+          "image": "thoracic_rotation"
+        },
+        {
+          "name": "Prone Y Raise",
+          "prescription": "10 reps",
+          "why": "Activates lower traps and rear delts — the posture muscles that keep shoulders down and back.",
+          "cue": "Lie face-down, lift arms into a Y, squeeze shoulder blades, lower slow.",
+          "protects": ["Shoulders", "Neck"],
+          "image": "trap_raise"
+        }
+      ]
+    },
+    {
+      "id": "lower-back",
+      "name": "Lower Back & Core",
+      "tagline": "Brace the spine before loading it",
+      "howTo": "Your low back takes load all shift long. These moves teach your core to stabilize before hinges and rows.",
+      "exercises": [
+        {
+          "name": "Cat-Cow",
+          "prescription": "10 slow cycles",
+          "why": "Mobilizes the entire spine and tells your nervous system it is safe to move into deeper ranges.",
+          "cue": "Inhale into cow, exhale into cat. Move one vertebra at a time if you can.",
+          "protects": ["Lower back", "Spine"],
+          "image": "cat_cow"
+        },
+        {
+          "name": "Dead Bug",
+          "prescription": "8 each side",
+          "why": "Trains deep core bracing while your arms and legs move — exactly what heavy lifts demand.",
+          "cue": "Press your low back into the floor. Extend opposite arm and leg without arching.",
+          "protects": ["Lower back", "Core"],
+          "image": "dead_bug"
+        },
+        {
+          "name": "Bird Dog",
+          "prescription": "8 each side",
+          "why": "Builds cross-body stability for your spine — one of the safest low-back prep moves.",
+          "cue": "Reach long through fingertips and heel. Hips and shoulders stay level.",
+          "protects": ["Lower back", "Core"],
+          "image": "bird_dog"
+        },
+        {
+          "name": "Glute Bridge",
+          "prescription": "12 reps",
+          "why": "Wakes up glutes so your low back does not take over during hip thrusts, RDLs, and squats.",
+          "cue": "Drive through heels, squeeze at the top, ribs stay down.",
+          "protects": ["Lower back", "Glutes"],
+          "image": "glute_bridge"
+        }
+      ]
+    },
+    {
+      "id": "full-body",
+      "name": "Full-Body Flow",
+      "tagline": "Tie it together before your first working set",
+      "howTo": "Finish with one integrated stretch that hits hips, thoracic spine, and ankles in a single move.",
+      "exercises": [
+        {
+          "name": "World's Greatest Stretch",
+          "prescription": "5 each side",
+          "why": "The gold-standard full-body opener — hip flexor, hamstring, thoracic rotation, and ankle mobility in one.",
+          "cue": "Deep lunge, elbow to floor, open chest to the sky, then straighten the front leg.",
+          "protects": ["Hips", "Hamstrings", "Thoracic spine"],
+          "image": "worlds_greatest_stretch"
+        }
+      ]
+    }
+  ],
+  "routine": [
+    { "step": 1, "name": "Cat-Cow", "prescription": "10 cycles" },
+    { "step": 2, "name": "Hip Circles", "prescription": "8 each direction / leg" },
+    { "step": 3, "name": "Fire Hydrant", "prescription": "10 each side" },
+    { "step": 4, "name": "Clamshell", "prescription": "12 each side" },
+    { "step": 5, "name": "Angel Drag", "prescription": "10 reps" },
+    { "step": 6, "name": "Thoracic Rotation", "prescription": "8 each side" },
+    { "step": 7, "name": "Dead Bug", "prescription": "8 each side" },
+    { "step": 8, "name": "Bird Dog", "prescription": "8 each side" },
+    { "step": 9, "name": "Glute Bridge", "prescription": "12 reps" },
+    { "step": 10, "name": "Quadruped Rock Back", "prescription": "10 reps" },
+    { "step": 11, "name": "World's Greatest Stretch", "prescription": "5 each side" }
+  ],
+  "closingNote": "Then start your workout. Your first working set should feel smoother — not harder. If joints still feel stiff after 12 minutes, add one more round of the area that needs it most."
+}

@@ -1,11 +1,13 @@
 import { useState } from "react";
 import exerciseData from "./data/exercises.json";
 import volumeData from "./data/volume.json";
+import warmupData from "./data/warmup.json";
 import Header from "./components/Header.jsx";
 import IntroVideo from "./components/IntroVideo.jsx";
 import ExerciseGuide from "./components/ExerciseGuide.jsx";
 import VolumeGuide from "./components/VolumeGuide.jsx";
 import WorkoutSetup from "./components/WorkoutSetup.jsx";
+import WarmupGuide from "./components/WarmupGuide.jsx";
 
 export default function App() {
   const { brand, groups } = exerciseData;
@@ -19,8 +21,10 @@ export default function App() {
         <IntroVideo video={brand.video} />
         {activeTab === "exercises" ? (
           <ExerciseGuide brand={brand} groups={groups} />
+        ) : activeTab === "warmup" ? (
+          <WarmupGuide data={warmupData} />
         ) : activeTab === "setup" ? (
-          <WorkoutSetup groups={groups} />
+          <WorkoutSetup groups={groups} warmup={warmupData} />
         ) : (
           <VolumeGuide data={volumeData} />
         )}
