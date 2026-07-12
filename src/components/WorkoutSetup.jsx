@@ -1,6 +1,10 @@
 import { useMemo, useState } from "react";
 import { generateWorkoutPlan } from "../utils/workoutGenerator.js";
 import { generate12WeekProgram } from "../utils/programGenerator.js";
+import {
+  downloadWeeklyPlanPdf,
+  downloadProgramPdf,
+} from "../utils/downloadWorkoutPdf.js";
 
 const DAY_OPTIONS = [2, 3, 4, 5, 6];
 
@@ -165,7 +169,7 @@ function WeekCard({ weekPlan, daysPerWeek }) {
   );
 }
 
-export default function WorkoutSetup({ groups }) {
+export default function WorkoutSetup({ groups, warmup }) {
   const [planMode, setPlanMode] = useState("weekly");
   const [daysPerWeek, setDaysPerWeek] = useState(3);
   const [equipment, setEquipment] = useState("all");
@@ -325,11 +329,22 @@ export default function WorkoutSetup({ groups }) {
 
       {weeklyPlan && (
         <section className="space-y-6">
-          <div>
-            <p className="eyebrow text-[11px] font-semibold text-faint">Your plan</p>
-            <h3 className="mt-2 text-2xl font-semibold text-white">
-              {weeklyPlan.daysPerWeek}-day schedule
-            </h3>
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <p className="eyebrow text-[11px] font-semibold text-faint">Your plan</p>
+              <h3 className="mt-2 text-2xl font-semibold text-white">
+                {weeklyPlan.daysPerWeek}-day schedule
+              </h3>
+            </div>
+            <button
+              type="button"
+              onClick={() =>
+                downloadWeeklyPlanPdf({ weeklyPlan, equipment, warmup })
+              }
+              className="rounded-xl border border-line bg-panel-2 px-4 py-2.5 text-sm font-medium text-zinc-200 transition-colors hover:border-gold/40 hover:text-gold-soft"
+            >
+              Download PDF
+            </button>
           </div>
           <div className="grid gap-5 lg:grid-cols-2">
             {weeklyPlan.workouts.map((workout) => (
@@ -341,12 +356,23 @@ export default function WorkoutSetup({ groups }) {
 
       {program && (
         <section className="space-y-6">
-          <div>
-            <p className="eyebrow text-[11px] font-semibold text-faint">Your program</p>
-            <h3 className="mt-2 text-2xl font-semibold text-white">12-week progressive block</h3>
-            <p className="mt-2 text-[14px] text-muted">
-              {program.volumeRange} · {program.daysPerWeek} training days · supersets increase by phase
-            </p>
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <p className="eyebrow text-[11px] font-semibold text-faint">Your program</p>
+              <h3 className="mt-2 text-2xl font-semibold text-white">12-week progressive block</h3>
+              <p className="mt-2 text-[14px] text-muted">
+                {program.volumeRange} · {program.daysPerWeek} training days · supersets increase by phase
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() =>
+                downloadProgramPdf({ program, equipment, warmup })
+              }
+              className="rounded-xl border border-line bg-panel-2 px-4 py-2.5 text-sm font-medium text-zinc-200 transition-colors hover:border-gold/40 hover:text-gold-soft"
+            >
+              Download PDF
+            </button>
           </div>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
