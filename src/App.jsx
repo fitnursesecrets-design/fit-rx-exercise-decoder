@@ -3,7 +3,6 @@ import exerciseData from "./data/exercises.json";
 import volumeData from "./data/volume.json";
 import warmupData from "./data/warmup.json";
 import Header from "./components/Header.jsx";
-import IntroVideo from "./components/IntroVideo.jsx";
 import ExerciseGuide from "./components/ExerciseGuide.jsx";
 import VolumeGuide from "./components/VolumeGuide.jsx";
 import WorkoutSetup from "./components/WorkoutSetup.jsx";
@@ -18,7 +17,6 @@ export default function App() {
       <Header brand={brand} activeTab={activeTab} onTabChange={setActiveTab} />
 
       <main className="mx-auto max-w-6xl px-5 pb-24 pt-10 sm:px-8">
-        <IntroVideo video={brand.video} />
         {activeTab === "exercises" ? (
           <ExerciseGuide brand={brand} groups={groups} />
         ) : activeTab === "warmup" ? (

@@ -2,13 +2,7 @@
   "brand": {
     "eyebrow": "Fit Nurse Secrets",
     "title": "Exercise Decoder",
-    "intro": "Pick exercises by body part — not by confusion. Choose 1–2 movements per area, match them to your level, and let the muscle do the work. Real dumbbell and true bodyweight options included.",
-    "video": {
-      "loomId": "e00bf200c64541128133c6184850ce33",
-      "label": "Start here",
-      "title": "How to use the Exercise Decoder",
-      "caption": "A quick walkthrough before you pick your exercises."
-    }
+    "intro": "Pick exercises by body part — not by confusion. Choose 1–2 movements per area, match them to your level, and let the muscle do the work. Real dumbbell and true bodyweight options included."
   },
   "groups": [
     {
