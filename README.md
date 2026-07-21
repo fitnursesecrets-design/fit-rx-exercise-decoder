@@ -46,6 +46,13 @@ All copy and exercise data live in `src/data/exercises.json` and
 Cards and workout rows play a looping muted demo when a video or GIF is
 available; otherwise they show the still PNG.
 
+**Bundled demos:** Every exercise/warm-up stem now has a looping `.mp4` demo.
+`npm run fetch-demos` re-downloads openly licensed clips where available;
+remaining specialty moves use generated start→end pose loops. Credits:
+`public/images/exercises/ATTRIBUTION.json`.
+
+To replace a demo manually:
+
 1. Keep the still as a poster/fallback: `public/images/exercises/{stem}.png`
 2. Add a short demo with the **same stem**:
    - Preferred: `{stem}.mp4` (or `.webm`) — quiet, looping form video
@@ -64,7 +71,6 @@ Optional per-exercise overrides in JSON:
 
 - `media` — force a local extension for that stem
 - `video` — full URL/path; wins over local files (PNG still used as poster)
-
 ## Deploy (GitHub + Netlify)
 
 1. Push this folder to a new GitHub repo.

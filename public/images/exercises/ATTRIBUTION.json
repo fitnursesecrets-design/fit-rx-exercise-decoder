@@ -1,0 +1,365 @@
+{
+  "license": "MIT",
+  "note": "Compressed local copies of female (preferred) form demos for Fit Nurse Secrets exercise cards.",
+  "generatedAt": "2026-07-21T19:28:36.801577Z",
+  "demos": [
+    {
+      "stem": "angel_drag",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "back_widow",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "bench_press",
+      "sourceName": "Barbell Bench Press",
+      "sourceId": "0025",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/barbell-bench-press.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "bent_over_row",
+      "sourceName": "Dumbbell Bent-Over Row",
+      "sourceId": "0293",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-bent-over-row.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "bird_dog",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "bodyweight_squat",
+      "sourceName": "Squat",
+      "sourceId": "drv-squat",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/squat.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "bulgarian_split",
+      "sourceFile": "quads/dumbbell-single-leg-split-squat.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-single-leg-split-squat.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "calf_raise",
+      "sourceName": "Dumbbell Standing Calf Raise",
+      "sourceId": "0417",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-standing-calf-raise.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "cat_cow",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "chest_supported_row",
+      "sourceFile": "upper-back/dumbbell-incline-row.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/dumbbell-incline-row.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "clamshell",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "close_grip_push_up",
+      "sourceName": "Close-Grip Push-Up",
+      "sourceId": "0259",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/close-grip-push-ups.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "dead_bug",
+      "sourceFile": "abs/dead-bug.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/dead-bug.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "deadlift",
+      "sourceName": "Dumbbell Deadlift",
+      "sourceId": "0300",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-deadlift.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "diamond_push_up",
+      "sourceName": "Close-Grip Push-Up",
+      "sourceId": "0259",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/close-grip-push-ups.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "donkey_kick",
+      "sourceName": "Band One-Leg Kickback (Bent Position)",
+      "sourceId": "drv-band-one-leg-kickback-bent-position",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/band-one-leg-kickback-bent-position.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "dumbbell_curl",
+      "sourceName": "Dumbbell Biceps Curl",
+      "sourceId": "0294",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-biceps-curl.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "fire_hydrant",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "floor_skullcrusher",
+      "sourceName": "Dumbbell Lying Triceps Extension",
+      "sourceId": "0351",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-lying-triceps-extension.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "fly",
+      "sourceName": "Dumbbell Fly",
+      "sourceId": "0308",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-fly.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "front_squat",
+      "sourceName": "Barbell Front Squat",
+      "sourceId": "0042",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/barbell-front-chest-squat.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "glute_bridge",
+      "sourceName": "Glute Bridge",
+      "sourceId": "drv-hip-raise-bridge",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/hip-raise-bridge.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "goblet_squat",
+      "sourceName": "Dumbbell Goblet Squat",
+      "sourceId": "1760",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-goblet-squat.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "good_morning",
+      "sourceFile": "hamstrings/barbell-good-morning.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/barbell-good-morning.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "hammer_curl",
+      "sourceName": "Dumbbell Cross Body Hammer Curl",
+      "sourceId": "0298",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-cross-body-hammer-curl.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "hip_circles",
+      "sourceName": "Hip Circles Stretch",
+      "sourceId": "0257",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/stretching-hip-circles-stretch.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "hip_thrust",
+      "sourceFile": "glutes/glute-bridge-two-legs-on-bench-male.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/glute-bridge-two-legs-on-bench-male.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "incline_curl",
+      "sourceName": "Dumbbell Incline Biceps Curl",
+      "sourceId": "0322",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-incline-biceps-curl.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "incline_press",
+      "sourceName": "Dumbbell Incline Bench Press",
+      "sourceId": "0314",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-incline-bench-press.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "isometric_biceps_hold",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "kickback",
+      "sourceName": "Dumbbell Kickback",
+      "sourceId": "0333",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-kickback.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "lateral_raise",
+      "sourceName": "Dumbbell Lateral Raise",
+      "sourceId": "0334",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-lateral-raise.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "overhead_extension",
+      "sourceName": "Dumbbell Seated Triceps Extension",
+      "sourceId": "2188",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-seated-triceps-extension.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "pike_push_up",
+      "sourceFile": "pectorals/exercise-ball-pike-push-up.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/exercise-ball-pike-push-up.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "plank_shoulder_tap",
+      "sourceFile": "abs/shoulder-tap.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/shoulder-tap.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "prone_t_raise",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "push_up",
+      "sourceName": "Push-Up",
+      "sourceId": "drv-push-ups",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/push-ups.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "quadruped_rock_back",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "rdl",
+      "sourceName": "Dumbbell Stiff Leg Deadlift",
+      "sourceId": "0432",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-stiff-leg-deadlift.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "rear_delt_fly",
+      "sourceName": "Dumbbell Incline Rear Lateral Raise",
+      "sourceId": "0326",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-incline-rear-lateral-raise.mp4",
+      "gender": "male"
+    },
+    {
+      "stem": "reverse_lunge",
+      "sourceName": "Dumbbell Lunge",
+      "sourceId": "0336",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-lunge.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "self_resisted_curl",
+      "sourceName": "Dumbbell Biceps Curl",
+      "sourceId": "0294",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-biceps-curl.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "self_resisted_hammer_curl",
+      "sourceName": "Dumbbell Cross Body Hammer Curl",
+      "sourceId": "0298",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-cross-body-hammer-curl.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "single_arm_row",
+      "sourceName": "Dumbbell Bent-Over Row",
+      "sourceId": "0293",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-bent-over-row.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "single_leg_calf",
+      "sourceName": "Dumbbell Single Leg Calf Raise",
+      "sourceId": "0409",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-single-leg-calf-raise.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "single_leg_rdl",
+      "sourceName": "Single Dumbbell Stiff-Leg Deadlift",
+      "sourceId": "1757",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/single-dumbbell-stiff-leg-deadlift.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "skull_crusher",
+      "sourceName": "Dumbbell Lying Triceps Extension",
+      "sourceId": "0351",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-lying-triceps-extension.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "step_up",
+      "sourceName": "Jump Step-Up",
+      "sourceId": "drv-jump-step-up",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/jump-step-up.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "superman",
+      "provider": "generated-keyframes",
+      "note": "Looping crossfade from AI-generated start/end pose stills"
+    },
+    {
+      "stem": "thoracic_rotation",
+      "sourceName": "Kneeling Back Rotation Stretch",
+      "sourceId": "drv-stretching-kneeling-back-rotation-stretch",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/stretching-kneeling-back-rotation-stretch.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "trap_raise",
+      "sourceFile": "upper-back/dumbbell-incline-y-raise.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/dumbbell-incline-y-raise.gif",
+      "provider": "ExerciseGymGifsDB"
+    },
+    {
+      "stem": "walking_lunge",
+      "sourceName": "Dumbbell Lunge",
+      "sourceId": "0336",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/dumbbell-lunge.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "wide_push_up",
+      "sourceName": "Push-Up",
+      "sourceId": "drv-push-ups",
+      "url": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/female/push-ups.mp4",
+      "gender": "female"
+    },
+    {
+      "stem": "worlds_greatest_stretch",
+      "sourceFile": "hamstrings/world-greatest-stretch.gif",
+      "url": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/world-greatest-stretch.gif",
+      "provider": "ExerciseGymGifsDB"
+    }
+  ],
+  "sources": [
+    "generated-keyframes",
+    "https://github.com/JahelCuadrado/ExerciseGymGifsDB",
+    "https://github.com/arhxam/free-exercise-db-with-videos"
+  ],
+  "coverage": {
+    "mp4": 54,
+    "total": 54
+  }
+}
