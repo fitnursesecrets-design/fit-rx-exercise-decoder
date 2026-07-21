@@ -5,6 +5,7 @@ import {
   downloadWeeklyPlanPdf,
   downloadProgramPdf,
 } from "../utils/downloadWorkoutPdf.js";
+import ExerciseMedia from "./ExerciseMedia.jsx";
 
 const DAY_OPTIONS = [2, 3, 4, 5, 6];
 
@@ -44,11 +45,11 @@ function ExerciseRow({ ex, reps, index }) {
   return (
     <li className="flex gap-3 rounded-xl border border-line bg-panel-2/60 p-3">
       <div className="h-16 w-20 shrink-0 overflow-hidden rounded-lg bg-white">
-        <img
-          src={`/images/exercises/${ex.image}.png`}
-          alt={ex.name}
-          loading="lazy"
-          className="h-full w-full object-contain"
+        <ExerciseMedia
+          image={ex.image}
+          name={ex.name}
+          media={ex.media}
+          video={ex.video}
         />
       </div>
       <div className="min-w-0 flex-1">

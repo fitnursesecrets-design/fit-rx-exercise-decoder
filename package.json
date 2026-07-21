@@ -5,7 +5,10 @@
   "type": "module",
   "description": "Fit Nurse Secrets — Exercise Decoder web app",
   "scripts": {
+    "scan-media": "node scripts/scan-exercise-media.mjs",
+    "predev": "npm run scan-media",
     "dev": "vite",
+    "prebuild": "npm run scan-media",
     "build": "vite build",
     "preview": "vite preview"
   },
