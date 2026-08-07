@@ -1,3 +1,5 @@
+import ExerciseMedia from "./ExerciseMedia.jsx";
+
 function ProtectBadge({ area }) {
   return (
     <span className="rounded-full border border-green/30 bg-green/10 px-2 py-0.5 text-[10px] font-medium text-green-soft">
@@ -7,17 +9,12 @@ function ProtectBadge({ area }) {
 }
 
 export default function WarmupCard({ exercise }) {
-  const { name, prescription, why, cue, protects, image } = exercise;
+  const { name, prescription, why, cue, protects, image, media, video } = exercise;
 
   return (
     <article className="card-hover flex flex-col overflow-hidden rounded-2xl border border-line bg-panel">
       <div className="relative aspect-[4/3] w-full bg-white">
-        <img
-          src={`/images/exercises/${image}.png`}
-          alt={name}
-          loading="lazy"
-          className="h-full w-full object-contain"
-        />
+        <ExerciseMedia image={image} name={name} media={media} video={video} />
       </div>
 
       <div className="flex flex-1 flex-col gap-4 p-5">

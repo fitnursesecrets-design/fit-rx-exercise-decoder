@@ -20,13 +20,17 @@ npm run preview  # preview the production build
 ```
 public/
   logo.png
-  images/exercises/*.png      # 27 exercise photos
+  images/exercises/*.{png,mp4,webm,gif}  # stills + optional movement demos
 src/
-  data/exercises.json         # all content (edit here to update copy)
+  data/exercises.json         # exercise content
+  data/warmup.json            # warm-up content
+  data/exerciseMedia.json     # auto-generated media format map (do not edit)
   components/
     Header.jsx
     GroupNav.jsx
     ExerciseCard.jsx
+    WarmupCard.jsx
+    ExerciseMedia.jsx         # photo / gif / looping video
   App.jsx
   index.css                   # theme tokens + base styles
 netlify.toml                  # build + SPA redirect config
@@ -34,10 +38,39 @@ netlify.toml                  # build + SPA redirect config
 
 ## Editing content
 
-All copy and exercise data live in `src/data/exercises.json`. To add or change
-an exercise, edit that file. To swap a photo, replace the matching file in
-`public/images/exercises/` (the `image` field is the filename without `.png`).
+All copy and exercise data live in `src/data/exercises.json` and
+`src/data/warmup.json`. The `image` field is the filename stem (no extension).
 
+### Movement demos (video or GIF)
+
+Cards and workout rows play a looping muted demo when a video or GIF is
+available; otherwise they show the still PNG.
+
+**Bundled demos:** Every exercise/warm-up stem now has a looping `.mp4` demo.
+`npm run fetch-demos` re-downloads openly licensed clips where available;
+remaining specialty moves use generated start→end pose loops. Credits:
+`public/images/exercises/ATTRIBUTION.json`.
+
+To replace a demo manually:
+
+1. Keep the still as a poster/fallback: `public/images/exercises/{stem}.png`
+2. Add a short demo with the **same stem**:
+   - Preferred: `{stem}.mp4` (or `.webm`) — quiet, looping form video
+   - Or: `{stem}.gif`
+3. Run `npm run scan-media` (also runs automatically on `npm run dev` / `npm run build`)
+
+Priority when multiple formats exist for one stem: **mp4 → webm → gif → png**.
+
+Optional per-exercise overrides in JSON:
+
+```json
+"image": "hip_thrust",
+"media": "mp4",
+"video": "https://example.com/demos/hip-thrust.mp4"
+```
+
+- `media` — force a local extension for that stem
+- `video` — full URL/path; wins over local files (PNG still used as poster)
 ## Deploy (GitHub + Netlify)
 
 1. Push this folder to a new GitHub repo.

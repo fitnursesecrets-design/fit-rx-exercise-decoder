@@ -1,3 +1,5 @@
+import ExerciseMedia from "./ExerciseMedia.jsx";
+
 function RatingBadge({ rating }) {
   return (
     <span className="inline-flex items-center gap-1 rounded-full bg-orange/15 px-2.5 py-1 text-xs font-semibold text-orange ring-1 ring-orange/25">
@@ -45,16 +47,12 @@ function EquipmentBadge({ equipment }) {
 }
 
 export default function ExerciseCard({ exercise }) {
-  const { name, rating, why, levels, basedOn, image, equipment, movementType } = exercise;
+  const { name, rating, why, levels, basedOn, image, media, video, equipment, movementType } =
+    exercise;
   return (
     <article className="card-hover flex flex-col overflow-hidden rounded-2xl border border-line bg-panel">
       <div className="relative aspect-[4/3] w-full bg-white">
-        <img
-          src={`/images/exercises/${image}.png`}
-          alt={name}
-          loading="lazy"
-          className="h-full w-full object-contain"
-        />
+        <ExerciseMedia image={image} name={name} media={media} video={video} />
       </div>
 
       <div className="flex flex-1 flex-col gap-4 p-5">
