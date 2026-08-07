@@ -6,6 +6,19 @@ beginner → advanced level path.
 
 Built with **Vite + React + Tailwind CSS v4**. Deploys to **Netlify** from GitHub.
 
+## Fit RX flow (login → goals → NASM screen → plan)
+
+1. **Sign in / guest** — tracker-style login shell (local session for now; swap
+   `src/auth/AuthContext.jsx` `authApi` for FitRX Tracker when that repo is wired).
+2. **Goals** — short questionnaire (goal, days/week, equipment, hotspots, shifts).
+3. **Movement screen** — NASM-inspired Overhead Squat self-check → compensation flags.
+4. **My Plan** — Inhibit → Lengthen → Activate → Integrate correctives + a strength
+   week built from your goals. Existing Exercise / Warm-Up / Setup / Volume tabs stay
+   available after onboarding.
+
+Profile + session persist in `localStorage` (`fitrx-decoder-session-v1`,
+`fitrx-decoder-profile-v1`).
+
 ## Local development
 
 ```bash
@@ -20,20 +33,29 @@ npm run preview  # preview the production build
 ```
 public/
   logo.png
-  images/exercises/*.{png,mp4,webm,gif}  # stills + optional movement demos
+  images/exercises/*.{png,mp4,webm,gif}
 src/
-  data/exercises.json         # exercise content
-  data/warmup.json            # warm-up content
-  data/exerciseMedia.json     # auto-generated media format map (do not edit)
+  auth/AuthContext.jsx        # login session (local now → FitRX Tracker later)
+  data/
+    exercises.json
+    warmup.json
+    goals.json                # onboarding questions
+    ohsa.json                 # NASM-style OHSA compensations + protocols
+    exerciseMedia.json
   components/
+    AuthScreen.jsx
+    GoalsWizard.jsx
+    OhsaAssessment.jsx
+    MyPlan.jsx
     Header.jsx
-    GroupNav.jsx
-    ExerciseCard.jsx
-    WarmupCard.jsx
-    ExerciseMedia.jsx         # photo / gif / looping video
+    ExerciseGuide.jsx / WarmupGuide.jsx / WorkoutSetup.jsx / VolumeGuide.jsx
+    ExerciseMedia.jsx
+  utils/
+    correctiveEngine.js
+    planBuilder.js
+    workoutGenerator.js
   App.jsx
-  index.css                   # theme tokens + base styles
-netlify.toml                  # build + SPA redirect config
+  index.css
 ```
 
 ## Editing content

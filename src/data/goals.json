@@ -1,0 +1,64 @@
+{
+  "title": "Quick goals check-in",
+  "subtitle": "A few answers so we can build the right plan",
+  "intro": "This takes about a minute. We’ll pair your goals with the movement screen so training protects the joints you need on shift.",
+  "questions": [
+    {
+      "id": "primaryGoal",
+      "prompt": "What’s your main goal right now?",
+      "type": "single",
+      "options": [
+        { "id": "fat_loss", "label": "Lose fat / feel lighter", "hint": "Full-body density + consistency" },
+        { "id": "strength", "label": "Get stronger", "hint": "Progressive loading focus" },
+        { "id": "shift_energy", "label": "More energy on shift", "hint": "Recoverable sessions, not burnout" },
+        { "id": "pain_proof", "label": "Fewer aches / injury-proof", "hint": "Correctives first, then smart loading" },
+        { "id": "tone", "label": "Tone & shape", "hint": "Glutes, back, arms emphasis" }
+      ]
+    },
+    {
+      "id": "daysPerWeek",
+      "prompt": "How many days can you train most weeks?",
+      "type": "single",
+      "options": [
+        { "id": "2", "label": "2 days" },
+        { "id": "3", "label": "3 days" },
+        { "id": "4", "label": "4 days" },
+        { "id": "5", "label": "5 days" },
+        { "id": "6", "label": "6 days" }
+      ]
+    },
+    {
+      "id": "equipment",
+      "prompt": "What equipment do you have?",
+      "type": "single",
+      "options": [
+        { "id": "bodyweight", "label": "Bodyweight only", "hint": "Zero gear, hotel / break-room friendly" },
+        { "id": "dumbbell", "label": "Dumbbells", "hint": "Home or gym DBs" },
+        { "id": "all", "label": "Both", "hint": "Mix bodyweight + dumbbells" }
+      ]
+    },
+    {
+      "id": "hotspot",
+      "prompt": "Where do you feel most beat-up after shifts?",
+      "type": "single",
+      "options": [
+        { "id": "knees", "label": "Knees / hips" },
+        { "id": "low_back", "label": "Low back" },
+        { "id": "shoulders", "label": "Shoulders / neck" },
+        { "id": "feet", "label": "Feet / calves" },
+        { "id": "none", "label": "Nothing major" }
+      ]
+    },
+    {
+      "id": "shift",
+      "prompt": "What kind of shifts do you usually work?",
+      "type": "single",
+      "options": [
+        { "id": "days", "label": "Days" },
+        { "id": "nights", "label": "Nights" },
+        { "id": "rotating", "label": "Rotating / mixed" },
+        { "id": "other", "label": "Other / not bedside" }
+      ]
+    }
+  ]
+}

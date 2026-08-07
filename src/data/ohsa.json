@@ -1,0 +1,227 @@
+{
+  "title": "NASM-Style Movement Screen",
+  "subtitle": "Overhead Squat Assessment (self-check)",
+  "intro": "Stand barefoot, feet shoulder-width, arms overhead. Squat as deep as you can with heels down. Check each box that shows up — even a little. This maps to corrective work that protects knees, hips, back, and shoulders before you load hard training.",
+  "howTo": [
+    "Film yourself from the front and the side, or have a partner watch.",
+    "Do 5 slow overhead squats. Mark every compensation you see.",
+    "No compensation? Great — still run the light activation sequence for shift-ready hips and posture."
+  ],
+  "disclaimer": "Educational movement screening inspired by NASM CES principles. Not a medical diagnosis. Stop and see a clinician for sharp pain, numbness, or recent injury.",
+  "views": [
+    {
+      "id": "anterior",
+      "name": "Front view",
+      "prompt": "Watch feet and knees from the front."
+    },
+    {
+      "id": "lateral",
+      "name": "Side view",
+      "prompt": "Watch torso, low back, and arms from the side."
+    }
+  ],
+  "compensations": [
+    {
+      "id": "feet_turn_out",
+      "view": "anterior",
+      "name": "Feet turn out",
+      "cue": "Toes flare out as you squat.",
+      "protects": ["Knees", "Ankles"],
+      "overactive": ["Soleus", "Lateral gastrocnemius", "Biceps femoris (short head)", "TFL"],
+      "underactive": ["Medial gastrocnemius", "Medial hamstrings", "Gluteus medius", "Gluteus maximus"],
+      "protocol": {
+        "inhibit": [
+          { "name": "Foam roll calves", "prescription": "30–60s each", "image": "calf_raise" },
+          { "name": "Foam roll TFL / outer hip", "prescription": "30–60s each", "image": "hip_circles" }
+        ],
+        "lengthen": [
+          { "name": "Standing calf stretch", "prescription": "30s each", "image": "calf_raise" },
+          { "name": "Supine figure-4 stretch", "prescription": "30s each", "image": "clamshell" }
+        ],
+        "activate": [
+          { "name": "Clamshell", "prescription": "12 each side", "image": "clamshell" },
+          { "name": "Single-leg calf raise", "prescription": "10 each", "image": "single_leg_calf" }
+        ],
+        "integrate": [
+          { "name": "Bodyweight squat (toes forward)", "prescription": "10 slow reps", "image": "bodyweight_squat" }
+        ]
+      }
+    },
+    {
+      "id": "knees_cave_in",
+      "view": "anterior",
+      "name": "Knees cave in",
+      "cue": "Knees pinch toward each other (valgus).",
+      "protects": ["Knees", "Hips"],
+      "overactive": ["Adductor complex", "Biceps femoris (short head)", "TFL", "Vastus lateralis"],
+      "underactive": ["Gluteus medius", "Gluteus maximus", "Vastus medialis (VMO)", "Medial hamstrings"],
+      "protocol": {
+        "inhibit": [
+          { "name": "Foam roll adductors", "prescription": "30–60s each", "image": "hip_circles" },
+          { "name": "Foam roll TFL", "prescription": "30–60s each", "image": "fire_hydrant" }
+        ],
+        "lengthen": [
+          { "name": "Kneeling adductor stretch", "prescription": "30s each", "image": "quadruped_rock_back" },
+          { "name": "Standing TFL stretch", "prescription": "30s each", "image": "worlds_greatest_stretch" }
+        ],
+        "activate": [
+          { "name": "Fire hydrant", "prescription": "12 each side", "image": "fire_hydrant" },
+          { "name": "Clamshell", "prescription": "12 each side", "image": "clamshell" },
+          { "name": "Glute bridge", "prescription": "12 reps", "image": "glute_bridge" }
+        ],
+        "integrate": [
+          { "name": "Reverse lunge (knee tracks over mid-foot)", "prescription": "8 each side", "image": "reverse_lunge" }
+        ]
+      }
+    },
+    {
+      "id": "knees_bow_out",
+      "view": "anterior",
+      "name": "Knees bow out",
+      "cue": "Knees push outward past the feet.",
+      "protects": ["Knees", "Hips"],
+      "overactive": ["Piriformis", "Biceps femoris", "TFL"],
+      "underactive": ["Adductor complex", "Medial hamstrings", "Gluteus maximus"],
+      "protocol": {
+        "inhibit": [
+          { "name": "Foam roll piriformis / glute", "prescription": "30–60s each", "image": "glute_bridge" }
+        ],
+        "lengthen": [
+          { "name": "Seated piriformis stretch", "prescription": "30s each", "image": "clamshell" }
+        ],
+        "activate": [
+          { "name": "Sumo stance glute bridge", "prescription": "12 reps", "image": "glute_bridge" },
+          { "name": "Bodyweight squat (narrower stance)", "prescription": "10 reps", "image": "bodyweight_squat" }
+        ],
+        "integrate": [
+          { "name": "Goblet squat (controlled knees)", "prescription": "10 reps", "image": "goblet_squat" }
+        ]
+      }
+    },
+    {
+      "id": "excessive_forward_lean",
+      "view": "lateral",
+      "name": "Excessive forward lean",
+      "cue": "Chest drops hard toward the thighs; torso stays too horizontal.",
+      "protects": ["Low back", "Knees"],
+      "overactive": ["Soleus", "Gastrocnemius", "Hip flexor complex", "Abdominal complex"],
+      "underactive": ["Anterior tibialis", "Gluteus maximus", "Erector spinae"],
+      "protocol": {
+        "inhibit": [
+          { "name": "Foam roll calves", "prescription": "30–60s each", "image": "calf_raise" },
+          { "name": "Foam roll hip flexors", "prescription": "30–60s each", "image": "worlds_greatest_stretch" }
+        ],
+        "lengthen": [
+          { "name": "Kneeling hip flexor stretch", "prescription": "30s each", "image": "worlds_greatest_stretch" },
+          { "name": "Standing calf stretch", "prescription": "30s each", "image": "calf_raise" }
+        ],
+        "activate": [
+          { "name": "Glute bridge", "prescription": "12 reps", "image": "glute_bridge" },
+          { "name": "Bird dog", "prescription": "8 each side", "image": "bird_dog" }
+        ],
+        "integrate": [
+          { "name": "Bodyweight squat (chest tall)", "prescription": "10 slow reps", "image": "bodyweight_squat" }
+        ]
+      }
+    },
+    {
+      "id": "low_back_arches",
+      "view": "lateral",
+      "name": "Low back arches",
+      "cue": "Low back over-extends / ribs flare as you squat.",
+      "protects": ["Low back", "Hips"],
+      "overactive": ["Hip flexor complex", "Erector spinae", "Latissimus dorsi"],
+      "underactive": ["Gluteus maximus", "Hamstrings", "Intrinsic core stabilizers"],
+      "protocol": {
+        "inhibit": [
+          { "name": "Foam roll hip flexors", "prescription": "30–60s each", "image": "worlds_greatest_stretch" },
+          { "name": "Foam roll lats", "prescription": "30–60s each", "image": "angel_drag" }
+        ],
+        "lengthen": [
+          { "name": "Kneeling hip flexor stretch", "prescription": "30s each", "image": "worlds_greatest_stretch" },
+          { "name": "Child’s-pose lat stretch", "prescription": "30s", "image": "quadruped_rock_back" }
+        ],
+        "activate": [
+          { "name": "Dead bug", "prescription": "8 each side", "image": "dead_bug" },
+          { "name": "Glute bridge", "prescription": "12 reps", "image": "glute_bridge" }
+        ],
+        "integrate": [
+          { "name": "Goblet squat (ribs stacked)", "prescription": "10 reps", "image": "goblet_squat" }
+        ]
+      }
+    },
+    {
+      "id": "low_back_rounds",
+      "view": "lateral",
+      "name": "Low back rounds",
+      "cue": "Tailbone tucks and low back rounds at the bottom.",
+      "protects": ["Low back", "Hips"],
+      "overactive": ["Hamstrings", "Adductor magnus", "Rectus abdominis"],
+      "underactive": ["Gluteus maximus", "Erector spinae", "Intrinsic core stabilizers"],
+      "protocol": {
+        "inhibit": [
+          { "name": "Foam roll hamstrings", "prescription": "30–60s each", "image": "rdl" }
+        ],
+        "lengthen": [
+          { "name": "Seated hamstring stretch", "prescription": "30s each", "image": "rdl" },
+          { "name": "Cat-cow", "prescription": "8 slow cycles", "image": "cat_cow" }
+        ],
+        "activate": [
+          { "name": "Bird dog", "prescription": "8 each side", "image": "bird_dog" },
+          { "name": "Glute bridge", "prescription": "12 reps", "image": "glute_bridge" },
+          { "name": "Superman", "prescription": "10 reps", "image": "superman" }
+        ],
+        "integrate": [
+          { "name": "Hip hinge / RDL pattern", "prescription": "10 slow reps", "image": "rdl" }
+        ]
+      }
+    },
+    {
+      "id": "arms_fall_forward",
+      "view": "lateral",
+      "name": "Arms fall forward",
+      "cue": "Arms drop forward instead of staying by the ears.",
+      "protects": ["Shoulders", "Upper back"],
+      "overactive": ["Latissimus dorsi", "Pectoralis major/minor", "Teres major"],
+      "underactive": ["Mid/lower trapezius", "Rhomboids", "Rotator cuff", "Posterior deltoid"],
+      "protocol": {
+        "inhibit": [
+          { "name": "Foam roll pecs / front shoulder", "prescription": "30–60s each", "image": "fly" },
+          { "name": "Foam roll lats", "prescription": "30–60s each", "image": "angel_drag" }
+        ],
+        "lengthen": [
+          { "name": "Doorway pec stretch", "prescription": "30s each", "image": "fly" },
+          { "name": "Child’s-pose lat stretch", "prescription": "30s", "image": "quadruped_rock_back" }
+        ],
+        "activate": [
+          { "name": "Prone Y raise", "prescription": "10 reps", "image": "trap_raise" },
+          { "name": "Prone T raise", "prescription": "10 reps", "image": "prone_t_raise" },
+          { "name": "Angel drag / wall slide", "prescription": "8 slow reps", "image": "angel_drag" }
+        ],
+        "integrate": [
+          { "name": "Squat to overhead reach", "prescription": "8 reps", "image": "bodyweight_squat" }
+        ]
+      }
+    }
+  ],
+  "baselineProtocol": {
+    "name": "Shift-ready primer",
+    "why": "No major flags — still wake up glutes, core, and upper-back posture before loading.",
+    "protocol": {
+      "inhibit": [
+        { "name": "Foam roll hip flexors", "prescription": "30s each", "image": "worlds_greatest_stretch" }
+      ],
+      "lengthen": [
+        { "name": "Cat-cow", "prescription": "6 cycles", "image": "cat_cow" }
+      ],
+      "activate": [
+        { "name": "Glute bridge", "prescription": "10 reps", "image": "glute_bridge" },
+        { "name": "Dead bug", "prescription": "6 each side", "image": "dead_bug" },
+        { "name": "Prone Y raise", "prescription": "8 reps", "image": "trap_raise" }
+      ],
+      "integrate": [
+        { "name": "Bodyweight squat", "prescription": "8 smooth reps", "image": "bodyweight_squat" }
+      ]
+    }
+  }
+}
