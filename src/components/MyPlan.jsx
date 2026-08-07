@@ -9,6 +9,7 @@ import {
 } from "../utils/planBuilder.js";
 import { generateWorkoutPlan } from "../utils/workoutGenerator.js";
 import ExerciseMedia from "./ExerciseMedia.jsx";
+import InstallAppPrompt from "./InstallAppPrompt.jsx";
 
 function PhaseSection({ phase }) {
   if (!phase.moves?.length) return null;
@@ -132,6 +133,9 @@ export default function MyPlan({ groups, onRetake }) {
           >
             Retake goals & screen
           </button>
+        </div>
+        <div className="mt-4">
+          <InstallAppPrompt variant="home" />
         </div>
       </div>
 
