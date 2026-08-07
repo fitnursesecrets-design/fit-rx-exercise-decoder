@@ -8,16 +8,23 @@ Built with **Vite + React + Tailwind CSS v4**. Deploys to **Netlify** from GitHu
 
 ## Fit RX flow (login → goals → NASM screen → plan)
 
-1. **Sign in / guest** — tracker-style login shell (local session for now; swap
-   `src/auth/AuthContext.jsx` `authApi` for FitRX Tracker when that repo is wired).
+1. **Sign in / guest** — FitRX Tracker-style auth pages (sign-in default, 2-step
+   signup, forgot password). Local session for now; swap `authApi` in
+   `src/auth/AuthContext.jsx` for Firebase later.
 2. **Goals** — short questionnaire (goal, days/week, equipment, hotspots, shifts).
 3. **Movement screen** — NASM-inspired Overhead Squat self-check → compensation flags.
 4. **My Plan** — Inhibit → Lengthen → Activate → Integrate correctives + a strength
    week built from your goals. Existing Exercise / Warm-Up / Setup / Volume tabs stay
    available after onboarding.
 
-Profile + session persist in `localStorage` (`fitrx-decoder-session-v1`,
-`fitrx-decoder-profile-v1`).
+Session keys: `fitexUser` + `fitexProfile` (not nutrition `fitrxUser`).
+
+### Install as an app (PWA)
+
+- `public/manifest.json`, `icon-192.png`, `icon-512.png`, `sw.js`
+- Apple meta tags in `index.html`
+- Install / iOS “Add to Home Screen” prompts on auth + My Plan
+- Netlify SPA fallback + no-cache headers for HTML / SW / manifest
 
 ## Local development
 
